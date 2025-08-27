@@ -1,0 +1,60 @@
+case 1 : 
+Enter the grid size (rows columns):
+5 5
+Enter Adventurer position (row column):
+2 0
+Enter Monster position (row column):
+2 4
+Enter Trigger position (row column):
+2 3
+Enter Treasure position (row column):
+2 2
+Enter number of pits:
+1
+Enter pit 1 position (row column):
+3 3
+
+Dungeon Layout:
+. . . . . 
+. . . . . 
+A . X T M 
+. . . P . 
+. . . . . 
+Result:
+Monster reaches the trigger first!
+Trigger is deactivated!
+Monster will catch the adventure
+
+
+
+
+
+ case 2:
+Enter the grid size (rows columns):
+5 5
+Enter Adventurer position (row column):
+1 1
+Enter Monster position (row column):
+3 2
+Enter Trigger position (row column):
+0 0
+Enter Treasure position (row column):
+2 4
+Enter number of pits:
+2
+Enter pit 1 position (row column):
+2 2
+Enter pit 2 position (row column):
+2 3
+
+
+Dungeon Layout:
+T . . . . 
+. A . . . 
+. . P P X 
+. . M . . 
+. . . . . 
+Result:
+Adventure reaches the trigger first!
+Monster is frozen!
+Adventure can safely reach the treasure! 
