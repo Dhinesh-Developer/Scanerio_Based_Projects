@@ -1,0 +1,253 @@
+
+Railway Booking System:
+1. Book Ticket
+2. Cancel Ticket
+3. View Confirmed Tickets
+4. View Available Tickets
+5. View RAC Tickets
+6. View Waiting List Tickets
+7. EXit
+Enter your choice:
+1
+Enter Name: 
+Arun
+Enter Age: 
+23
+Enter Gender (Male/Female): 
+Male
+Enter Berth Preference (L/U/M)
+U
+Ticket confirmed: Passenger [name=Arun, age=23, gender=Male, berthPreference=U, allottedBerth=U, ticketId=T1]
+
+Railway Booking System:
+1. Book Ticket
+2. Cancel Ticket
+3. View Confirmed Tickets
+4. View Available Tickets
+5. View RAC Tickets
+6. View Waiting List Tickets
+7. EXit
+Enter your choice:
+1
+Enter Name: 
+Axar
+Enter Age: 
+34
+Enter Gender (Male/Female): 
+Male
+Enter Berth Preference (L/U/M)
+M
+Ticket confirmed: Passenger [name=Axar, age=34, gender=Male, berthPreference=M, allottedBerth=M, ticketId=T2]
+
+Railway Booking System:
+1. Book Ticket
+2. Cancel Ticket
+3. View Confirmed Tickets
+4. View Available Tickets
+5. View RAC Tickets
+6. View Waiting List Tickets
+7. EXit
+Enter your choice:
+1
+Enter Name: 
+Karthi
+Enter Age: 
+30
+Enter Gender (Male/Female): 
+Male
+Enter Berth Preference (L/U/M)
+L
+Ticket confirmed: Passenger [name=Karthi, age=30, gender=Male, berthPreference=L, allottedBerth=L, ticketId=T3]
+
+Railway Booking System:
+1. Book Ticket
+2. Cancel Ticket
+3. View Confirmed Tickets
+4. View Available Tickets
+5. View RAC Tickets
+6. View Waiting List Tickets
+7. EXit
+Enter your choice:
+3
+Confirmed Tickets:
+Passenger [name=Arun, age=23, gender=Male, berthPreference=U, allottedBerth=U, ticketId=T1]
+Passenger [name=Axar, age=34, gender=Male, berthPreference=M, allottedBerth=M, ticketId=T2]
+Passenger [name=Karthi, age=30, gender=Male, berthPreference=L, allottedBerth=L, ticketId=T3]
+
+Railway Booking System:
+1. Book Ticket
+2. Cancel Ticket
+3. View Confirmed Tickets
+4. View Available Tickets
+5. View RAC Tickets
+6. View Waiting List Tickets
+7. EXit
+Enter your choice:
+5
+No RAC tickets.
+
+Railway Booking System:
+1. Book Ticket
+2. Cancel Ticket
+3. View Confirmed Tickets
+4. View Available Tickets
+5. View RAC Tickets
+6. View Waiting List Tickets
+7. EXit
+Enter your choice:
+6
+No Waiting List tickets.
+
+Railway Booking System:
+1. Book Ticket
+2. Cancel Ticket
+3. View Confirmed Tickets
+4. View Available Tickets
+5. View RAC Tickets
+6. View Waiting List Tickets
+7. EXit
+Enter your choice:
+1
+Enter Name: 
+Varun
+Enter Age: 
+20
+Enter Gender (Male/Female): 
+Male
+Enter Berth Preference (L/U/M)
+L
+Ticket in RAC: Passenger [name=Varun, age=20, gender=Male, berthPreference=L, allottedBerth=RAC, ticketId=T4]
+
+Railway Booking System:
+1. Book Ticket
+2. Cancel Ticket
+3. View Confirmed Tickets
+4. View Available Tickets
+5. View RAC Tickets
+6. View Waiting List Tickets
+7. EXit
+Enter your choice:
+5
+RAC Tickets:
+Passenger [name=Varun, age=20, gender=Male, berthPreference=L, allottedBerth=RAC, ticketId=T4]
+
+Railway Booking System:
+1. Book Ticket
+2. Cancel Ticket
+3. View Confirmed Tickets
+4. View Available Tickets
+5. View RAC Tickets
+6. View Waiting List Tickets
+7. EXit
+Enter your choice:
+1
+Enter Name: 
+Vijay
+Enter Age: 
+32
+Enter Gender (Male/Female): 
+Male
+Enter Berth Preference (L/U/M)
+M
+Ticket in waiting List: Passenger [name=Vijay, age=32, gender=Male, berthPreference=M, allottedBerth=Waiting List, ticketId=T5]
+
+Railway Booking System:
+1. Book Ticket
+2. Cancel Ticket
+3. View Confirmed Tickets
+4. View Available Tickets
+5. View RAC Tickets
+6. View Waiting List Tickets
+7. EXit
+Enter your choice:
+6
+Waiting List Tickets:
+Passenger [name=Vijay, age=32, gender=Male, berthPreference=M, allottedBerth=Waiting List, ticketId=T5]
+
+Railway Booking System:
+1. Book Ticket
+2. Cancel Ticket
+3. View Confirmed Tickets
+4. View Available Tickets
+5. View RAC Tickets
+6. View Waiting List Tickets
+7. EXit
+Enter your choice:
+1
+Enter Name: 
+Akash
+Enter Age: 
+45
+Enter Gender (Male/Female): 
+Male
+Enter Berth Preference (L/U/M)
+L
+No tickets available
+
+Railway Booking System:
+1. Book Ticket
+2. Cancel Ticket
+3. View Confirmed Tickets
+4. View Available Tickets
+5. View RAC Tickets
+6. View Waiting List Tickets
+7. EXit
+Enter your choice:
+2
+Enter Ticket ID to Cancel: 
+T2
+RAC ticket moved to confirmed: Passenger [name=Varun, age=20, gender=Male, berthPreference=L, allottedBerth=M, ticketId=T4]
+waiting list ticket moved to RAC: Passenger [name=Vijay, age=32, gender=Male, berthPreference=M, allottedBerth=RAC, ticketId=T5]
+Ticket cancelled successfully for ID: T2
+
+Railway Booking System:
+1. Book Ticket
+2. Cancel Ticket
+3. View Confirmed Tickets
+4. View Available Tickets
+5. View RAC Tickets
+6. View Waiting List Tickets
+7. EXit
+Enter your choice:
+3
+Confirmed Tickets:
+Passenger [name=Arun, age=23, gender=Male, berthPreference=U, allottedBerth=U, ticketId=T1]
+Passenger [name=Karthi, age=30, gender=Male, berthPreference=L, allottedBerth=L, ticketId=T3]
+Passenger [name=Varun, age=20, gender=Male, berthPreference=L, allottedBerth=M, ticketId=T4]
+
+Railway Booking System:
+1. Book Ticket
+2. Cancel Ticket
+3. View Confirmed Tickets
+4. View Available Tickets
+5. View RAC Tickets
+6. View Waiting List Tickets
+7. EXit
+Enter your choice:
+5
+RAC Tickets:
+Passenger [name=Vijay, age=32, gender=Male, berthPreference=M, allottedBerth=RAC, ticketId=T5]
+
+Railway Booking System:
+1. Book Ticket
+2. Cancel Ticket
+3. View Confirmed Tickets
+4. View Available Tickets
+5. View RAC Tickets
+6. View Waiting List Tickets
+7. EXit
+Enter your choice:
+6
+No Waiting List tickets.
+
+Railway Booking System:
+1. Book Ticket
+2. Cancel Ticket
+3. View Confirmed Tickets
+4. View Available Tickets
+5. View RAC Tickets
+6. View Waiting List Tickets
+7. EXit
+Enter your choice:
+7
+Existing...
