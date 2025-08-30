@@ -1,0 +1,32 @@
+we need to implement a Flight Ticket Booking Application.
+ This involves designing a reservation system with specific functionalities,
+  which include booking tickets, applying booking conditions,
+   handling cancellations, and printing flight details.
+
+Let’s break down the problem and provide a detailed implementation.
+
+Table of Contents
+Problem Statement
+Solution Code
+1. Passenger Class
+2. Flight Class
+3. FlightReservationSystem Class
+4. Main Class
+Conclusion
+Problem Statement
+We need to implement the following modules and functionalities:
+
+Booking Ticket
+Booking Conditions:
+Each flight has 50 seats.
+Get passenger details, including flight name and seats required.
+Ticket starting price is ₹5000.
+Ticket price increases by ₹200 for every successful booking.
+3. Cancel Ticket
+
+4. Cancel Conditions:
+
+Issue a refund for the canceled ticket.
+Ticket price reduces by ₹200 per canceled seat.
+5. Print Flight Details with Passengers
+

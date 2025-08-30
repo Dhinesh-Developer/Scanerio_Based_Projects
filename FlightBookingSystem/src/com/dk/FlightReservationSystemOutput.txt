@@ -1,0 +1,200 @@
+
+--- Flight Reservation System ---
+1. Book Ticket
+2. Cancel Ticket
+3. Print Flight Details
+4. Exit
+Enter your choice: 1
+Enter flight name (Indigo/SpiceJet): 
+Indigo
+Flight: Indigo
+Available Seats: 50
+Current Ticket Price: 5000
+Enter passenger name: 
+kumar
+Enter passenger age: 
+20
+Enter number of seats to book: 
+1
+Booking successful! Your booking ID is: T1
+
+--- Flight Reservation System ---
+1. Book Ticket
+2. Cancel Ticket
+3. Print Flight Details
+4. Exit
+Enter your choice: 1
+Enter flight name (Indigo/SpiceJet): 
+Indigo
+Flight: Indigo
+Available Seats: 49
+Current Ticket Price: 5200
+Enter passenger name: 
+dhinesh
+Enter passenger age: 
+19
+Enter number of seats to book: 
+2
+Booking successful! Your booking ID is: T2
+
+--- Flight Reservation System ---
+1. Book Ticket
+2. Cancel Ticket
+3. Print Flight Details
+4. Exit
+Enter your choice: 1
+Enter flight name (Indigo/SpiceJet): 
+SpiceJet
+Flight: SpiceJet
+Available Seats: 50
+Current Ticket Price: 5000
+Enter passenger name: 
+vijay
+Enter passenger age: 
+40
+Enter number of seats to book: 
+1
+Booking successful! Your booking ID is: T1
+
+--- Flight Reservation System ---
+1. Book Ticket
+2. Cancel Ticket
+3. Print Flight Details
+4. Exit
+Enter your choice: 3
+Enter flight name (Indigo/SpiceJet): 
+Indigo
+Flight: Indigo
+Available Seats: 47
+Current Ticket Price: 5600
+Passengers:
+Passenger [bookingId=T1, name=kumar, age=20, seatsBooked=1]
+Passenger [bookingId=T2, name=dhinesh, age=19, seatsBooked=2]
+
+--- Flight Reservation System ---
+1. Book Ticket
+2. Cancel Ticket
+3. Print Flight Details
+4. Exit
+Enter your choice: 3
+Enter flight name (Indigo/SpiceJet): 
+SpiceJet
+Flight: SpiceJet
+Available Seats: 49
+Current Ticket Price: 5200
+Passengers:
+Passenger [bookingId=T1, name=vijay, age=40, seatsBooked=1]
+
+--- Flight Reservation System ---
+1. Book Ticket
+2. Cancel Ticket
+3. Print Flight Details
+4. Exit
+Enter your choice: 2
+Enter flight name (Indigo/SpiceJet): 
+Indigo
+Enter booking ID: 
+T2
+Booking canceled successfully. Refund issued for 2 seats.
+
+--- Flight Reservation System ---
+1. Book Ticket
+2. Cancel Ticket
+3. Print Flight Details
+4. Exit
+Enter your choice: 3
+Enter flight name (Indigo/SpiceJet): 
+Indigo
+Flight: Indigo
+Available Seats: 49
+Current Ticket Price: 5200
+Passengers:
+Passenger [bookingId=T1, name=kumar, age=20, seatsBooked=1]
+
+--- Flight Reservation System ---
+1. Book Ticket
+2. Cancel Ticket
+3. Print Flight Details
+4. Exit
+Enter your choice: 1
+Enter flight name (Indigo/SpiceJet): 
+SpiceJet
+Flight: SpiceJet
+Available Seats: 49
+Current Ticket Price: 5200
+Enter passenger name: 
+varun
+Enter passenger age: 
+30
+Enter number of seats to book: 
+4
+Booking successful! Your booking ID is: T2
+
+--- Flight Reservation System ---
+1. Book Ticket
+2. Cancel Ticket
+3. Print Flight Details
+4. Exit
+Enter your choice: 1
+Enter flight name (Indigo/SpiceJet): 
+Indigo
+Flight: Indigo
+Available Seats: 49
+Current Ticket Price: 5200
+Enter passenger name: 
+karthi
+Enter passenger age: 
+23
+Enter number of seats to book: 
+3
+Booking successful! Your booking ID is: T3
+
+--- Flight Reservation System ---
+1. Book Ticket
+2. Cancel Ticket
+3. Print Flight Details
+4. Exit
+Enter your choice: 3
+Enter flight name (Indigo/SpiceJet): 
+Indigo
+Flight: Indigo
+Available Seats: 46
+Current Ticket Price: 5800
+Passengers:
+Passenger [bookingId=T1, name=kumar, age=20, seatsBooked=1]
+Passenger [bookingId=T3, name=karthi, age=23, seatsBooked=3]
+
+--- Flight Reservation System ---
+1. Book Ticket
+2. Cancel Ticket
+3. Print Flight Details
+4. Exit
+Enter your choice: 3
+Enter flight name (Indigo/SpiceJet): 
+SpiceJet
+Flight: SpiceJet
+Available Seats: 45
+Current Ticket Price: 6000
+Passengers:
+Passenger [bookingId=T1, name=vijay, age=40, seatsBooked=1]
+Passenger [bookingId=T2, name=varun, age=30, seatsBooked=4]
+
+--- Flight Reservation System ---
+1. Book Ticket
+2. Cancel Ticket
+3. Print Flight Details
+4. Exit
+Enter your choice: 2
+Enter flight name (Indigo/SpiceJet): 
+SpiceJet
+Enter booking ID: 
+T2
+Booking canceled successfully. Refund issued for 4 seats.
+
+--- Flight Reservation System ---
+1. Book Ticket
+2. Cancel Ticket
+3. Print Flight Details
+4. Exit
+Enter your choice: 4
+Existing system. Thank You!
