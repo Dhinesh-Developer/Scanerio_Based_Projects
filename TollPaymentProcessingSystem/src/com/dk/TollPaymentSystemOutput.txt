@@ -1,0 +1,195 @@
+1. Process Journey
+2. Display Toll Details
+3. Display Vehicle Details
+4. Find Shortest Route and calculate Toll
+5. Exit
+Enter your choice: 
+1
+Enter Vehicle Number: 
+1234
+Enter Vehicle Type (e.g., Car, Bike, Truck): 
+Bike
+Are you a VIP? (true/false): 
+false
+Enter Start Point: 
+0
+Enter End Point: 
+2
+Total Toll Paid: 75
+Journey completed! Total Toll paid: 75
+1. Process Journey
+2. Display Toll Details
+3. Display Vehicle Details
+4. Find Shortest Route and calculate Toll
+5. Exit
+Enter your choice: 
+2
+Toll ID: 0
+Vehicles Passed:
+Vehicle: 1234, Paid: 20
+Total Revenue: 20
+Toll ID: 0
+Vehicles Passed:
+Vehicle: 1234, Paid: 25
+Total Revenue: 25
+Toll ID: 0
+Vehicles Passed:
+Vehicle: 1234, Paid: 30
+Total Revenue: 30
+1. Process Journey
+2. Display Toll Details
+3. Display Vehicle Details
+4. Find Shortest Route and calculate Toll
+5. Exit
+Enter your choice: 
+3
+Vehicle Number: 1234
+Type: Bike, VIP: false
+Journey: 0 -> 2
+Tolls Passed: [0, 1, 2]
+Amount Paid: 75
+Total Amount Paid: 75
+1. Process Journey
+2. Display Toll Details
+3. Display Vehicle Details
+4. Find Shortest Route and calculate Toll
+5. Exit
+Enter your choice: 
+4
+Enter Start and End Points: 
+0 2
+Shortest Route Tolls: [0, 2]
+Enter Vehicle Type (e.g., Car, Bike, Truck): 
+Bike
+Are you a VIP? (true/false): 
+false
+Total Toll Cost for Circular Route: 50
+1. Process Journey
+2. Display Toll Details
+3. Display Vehicle Details
+4. Find Shortest Route and calculate Toll
+5. Exit
+Enter your choice: 
+1
+Enter Vehicle Number: 
+3369
+Enter Vehicle Type (e.g., Car, Bike, Truck): 
+Car
+Are you a VIP? (true/false): 
+true
+Enter Start Point: 
+0
+Enter End Point: 
+2
+Total Toll Paid: 144
+Journey completed! Total Toll paid: 144
+1. Process Journey
+2. Display Toll Details
+3. Display Vehicle Details
+4. Find Shortest Route and calculate Toll
+5. Exit
+Enter your choice: 
+1
+Enter Vehicle Number: 
+8989
+Enter Vehicle Type (e.g., Car, Bike, Truck): 
+Truck
+Are you a VIP? (true/false): 
+false
+Enter Start Point: 
+1
+Enter End Point: 
+2
+Total Toll Paid: 275
+Journey completed! Total Toll paid: 275
+1. Process Journey
+2. Display Toll Details
+3. Display Vehicle Details
+4. Find Shortest Route and calculate Toll
+5. Exit
+Enter your choice: 
+1
+Enter Vehicle Number: 
+8764
+Enter Vehicle Type (e.g., Car, Bike, Truck): 
+Car
+Are you a VIP? (true/false): 
+true
+Enter Start Point: 
+1
+Enter End Point: 
+2
+Total Toll Paid: 104
+Journey completed! Total Toll paid: 104
+1. Process Journey
+2. Display Toll Details
+3. Display Vehicle Details
+4. Find Shortest Route and calculate Toll
+5. Exit
+Enter your choice: 
+2
+Toll ID: 0
+Vehicles Passed:
+Vehicle: 1234, Paid: 20
+Vehicle: 3369, Paid: 40
+Total Revenue: 60
+Toll ID: 0
+Vehicles Passed:
+Vehicle: 1234, Paid: 25
+Vehicle: 3369, Paid: 48
+Vehicle: 8989, Paid: 125
+Vehicle: 8764, Paid: 48
+Total Revenue: 246
+Toll ID: 0
+Vehicles Passed:
+Vehicle: 1234, Paid: 30
+Vehicle: 3369, Paid: 56
+Vehicle: 8989, Paid: 150
+Vehicle: 8764, Paid: 56
+Total Revenue: 292
+1. Process Journey
+2. Display Toll Details
+3. Display Vehicle Details
+4. Find Shortest Route and calculate Toll
+5. Exit
+Enter your choice: 
+3
+Vehicle Number: 3369
+Type: Car, VIP: true
+Journey: 0 -> 2
+Tolls Passed: [0, 1, 2]
+Amount Paid: 144
+Total Amount Paid: 144
+Vehicle Number: 1234
+Type: Bike, VIP: false
+Journey: 0 -> 2
+Tolls Passed: [0, 1, 2]
+Amount Paid: 75
+Total Amount Paid: 75
+Vehicle Number: 8764
+Type: Car, VIP: true
+Journey: 1 -> 2
+Tolls Passed: [1, 2]
+Amount Paid: 104
+Total Amount Paid: 104
+Vehicle Number: 8989
+Type: Truck, VIP: false
+Journey: 1 -> 2
+Tolls Passed: [1, 2]
+Amount Paid: 275
+Total Amount Paid: 275
+1. Process Journey
+2. Display Toll Details
+3. Display Vehicle Details
+4. Find Shortest Route and calculate Toll
+5. Exit
+Enter your choice: 
+4
+Enter Start and End Points: 
+0 2
+Shortest Route Tolls: [0, 2]
+Enter Vehicle Type (e.g., Car, Bike, Truck): 
+Truck
+Are you a VIP? (true/false): 
+false
+Total Toll Cost for Circular Route: 250

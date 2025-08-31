@@ -1,0 +1,56 @@
+the task was to create a Toll Payment Processing System using an object-oriented programming language. 
+
+
+Table of Contents
+Question: Toll Payment Processing System
+
+Application Description:
+
+Modules:
+Solution Design
+Implementation
+1. Toll.java
+2. Vehicle.java
+3. Journey.java
+4. VehiclePayment.java
+5. Highway.java
+6. TollPaymentSystem.java
+
+
+How It Works
+Sample Output
+Key Features
+
+
+Conclusion
+Question: Toll Payment Processing System
+Application Description:
+There are ’n’ points on a highway. Some of these points are toll gates.
+Each toll gate has a unique charging scheme based on vehicle type (Car, Bike, Truck) and whether the user is VIP.
+VIP users receive a 20% discount on toll charges.
+A vehicle passing through multiple tolls must pay at each toll according to its respective scheme.
+The highway is considered circular, allowing vehicles to travel in both directions.
+
+
+Modules:
+Process Journey
+Calculate the toll charges for a journey, including discounts if applicable.
+Display Toll Details
+Display details of vehicles passing each toll and the total revenue collected.
+Display Vehicle Details
+Show journeys taken by each vehicle, tolls passed, and total toll charges paid.
+Find Shortest Route and Calculate Toll
+Identify the shortest path between two points and calculate the toll.
+Exit
+Terminate the program.
+
+
+Solution Design
+To solve this, I used object-oriented programming (OOP) principles and broke down the problem into six classes:
+
+Toll
+Vehicle
+Journey
+VehiclePayment
+Highway
+TollPaymentSystem
