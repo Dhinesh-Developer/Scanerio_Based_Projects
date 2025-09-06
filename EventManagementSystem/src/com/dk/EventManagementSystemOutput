@@ -1,0 +1,218 @@
+
+--- Event Management System ---
+1. Create Event
+2. View Events
+3. Book Ticket
+4. Cancel Ticket
+5. Search Event
+6. Delete Event
+7. View Bookings
+8. Exit
+Enter choice: 1
+Enter Event Name: Tech conference
+Enter Organizer: Zoho
+Enter Date: 2025-10-10
+Enter Venue: chennai
+Enter Total Seats: 50
+Event Booked successfully!..
+
+--- Event Management System ---
+1. Create Event
+2. View Events
+3. Book Ticket
+4. Cancel Ticket
+5. Search Event
+6. Delete Event
+7. View Bookings
+8. Exit
+Enter choice: 1
+Enter Event Name: DSA interview
+Enter Organizer: Google
+Enter Date: 2025-10-08
+Enter Venue: bangalore
+Enter Total Seats: 100
+Event Booked successfully!..
+
+--- Event Management System ---
+1. Create Event
+2. View Events
+3. Book Ticket
+4. Cancel Ticket
+5. Search Event
+6. Delete Event
+7. View Bookings
+8. Exit
+Enter choice: 1
+Enter Event Name: Full stack hiring
+Enter Organizer: Amazon
+Enter Date: 2025-12-20
+Enter Venue: KIOT
+Enter Total Seats: 50
+Event Booked successfully!..
+
+--- Event Management System ---
+1. Create Event
+2. View Events
+3. Book Ticket
+4. Cancel Ticket
+5. Search Event
+6. Delete Event
+7. View Bookings
+8. Exit
+Enter choice: 1
+Enter Event Name: Placement
+Enter Organizer: Hcl Tech
+Enter Date: 2026-07-07
+Enter Venue: KIOT placement Center
+Enter Total Seats: 25
+Event Booked successfully!..
+
+--- Event Management System ---
+1. Create Event
+2. View Events
+3. Book Ticket
+4. Cancel Ticket
+5. Search Event
+6. Delete Event
+7. View Bookings
+8. Exit
+Enter choice: 2
+Event [eventId=1000, name=Tech conference, organizer=Zoho, date=2025-10-10, venue=chennai, totalSeats=50, bookedSeats=0]
+Event [eventId=1001, name=DSA interview, organizer=Google, date=2025-10-08, venue=bangalore, totalSeats=100, bookedSeats=0]
+Event [eventId=1002, name=Full stack hiring, organizer=Amazon, date=2025-12-20, venue=KIOT, totalSeats=50, bookedSeats=0]
+Event [eventId=1003, name=Placement, organizer=Hcl Tech, date=2026-07-07, venue=KIOT placement Center, totalSeats=25, bookedSeats=0]
+
+--- Event Management System ---
+1. Create Event
+2. View Events
+3. Book Ticket
+4. Cancel Ticket
+5. Search Event
+6. Delete Event
+7. View Bookings
+8. Exit
+Enter choice: 3
+Enter Event ID: 1003
+Enter Customer Name: DhineshKumar M
+Enter No. of Seats: 1
+Booking Seats success ! Booking Id: 5000
+
+--- Event Management System ---
+1. Create Event
+2. View Events
+3. Book Ticket
+4. Cancel Ticket
+5. Search Event
+6. Delete Event
+7. View Bookings
+8. Exit
+Enter choice: 3
+Enter Event ID: 1001
+Enter Customer Name: kumar
+Enter No. of Seats: 1
+Booking Seats success ! Booking Id: 5001
+
+--- Event Management System ---
+1. Create Event
+2. View Events
+3. Book Ticket
+4. Cancel Ticket
+5. Search Event
+6. Delete Event
+7. View Bookings
+8. Exit
+Enter choice: 5
+Enter Event Name or Event ID: Hcl Tech
+No event found with keyword: Hcl Tech
+
+--- Event Management System ---
+1. Create Event
+2. View Events
+3. Book Ticket
+4. Cancel Ticket
+5. Search Event
+6. Delete Event
+7. View Bookings
+8. Exit
+Enter choice: 5
+Enter Event Name or Event ID: 1003
+Event [eventId=1003, name=Placement, organizer=Hcl Tech, date=2026-07-07, venue=KIOT placement Center, totalSeats=25, bookedSeats=1]
+
+--- Event Management System ---
+1. Create Event
+2. View Events
+3. Book Ticket
+4. Cancel Ticket
+5. Search Event
+6. Delete Event
+7. View Bookings
+8. Exit
+Enter choice: 7
+Booking [bookingId=5000, CustomerName=DhineshKumar M, eventId=1003, seatsBooked=1]
+Booking [bookingId=5001, CustomerName=kumar, eventId=1001, seatsBooked=1]
+
+--- Event Management System ---
+1. Create Event
+2. View Events
+3. Book Ticket
+4. Cancel Ticket
+5. Search Event
+6. Delete Event
+7. View Bookings
+8. Exit
+Enter choice: 4
+Enter Booking ID: 5001
+Booking cancelled! Booking ID: 5001
+
+--- Event Management System ---
+1. Create Event
+2. View Events
+3. Book Ticket
+4. Cancel Ticket
+5. Search Event
+6. Delete Event
+7. View Bookings
+8. Exit
+Enter choice: 3
+Enter Event ID: 1003
+Enter Customer Name: kumar
+Enter No. of Seats: 1
+Booking Seats success ! Booking Id: 5002
+
+--- Event Management System ---
+1. Create Event
+2. View Events
+3. Book Ticket
+4. Cancel Ticket
+5. Search Event
+6. Delete Event
+7. View Bookings
+8. Exit
+Enter choice: 5
+Enter Event Name or Event ID: Placement
+Event [eventId=1003, name=Placement, organizer=Hcl Tech, date=2026-07-07, venue=KIOT placement Center, totalSeats=25, bookedSeats=2]
+
+--- Event Management System ---
+1. Create Event
+2. View Events
+3. Book Ticket
+4. Cancel Ticket
+5. Search Event
+6. Delete Event
+7. View Bookings
+8. Exit
+Enter choice: 6
+Enter Event ID to delete: 1002
+Event deleted successfully! Event ID: 1002
+
+--- Event Management System ---
+1. Create Event
+2. View Events
+3. Book Ticket
+4. Cancel Ticket
+5. Search Event
+6. Delete Event
+7. View Bookings
+8. Exit
+Enter choice: 8
+Thank you for using Event Management System!

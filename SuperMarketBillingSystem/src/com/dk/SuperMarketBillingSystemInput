@@ -1,0 +1,61 @@
+📌 Problem Statement: Supermarket Billing System
+
+Design and implement a console-based Supermarket Billing System in Java.
+
+Requirements:
+
+The supermarket has a list of products.
+Each product has:
+
+Product ID (unique)
+
+Product Name
+
+Price per unit
+
+Stock Quantity
+
+Customers can:
+
+View available products
+
+Add products to cart (reduce stock)
+
+Remove products from cart (increase stock back)
+
+View cart
+
+Checkout and generate bill
+
+The Bill should include:
+
+Product details (ID, Name, Quantity, Price)
+
+Total Amount
+
+Discounts (if any, e.g., 10% if total > 1000)
+
+Final Payable Amount
+
+System should be menu-driven:
+
+--- Supermarket Billing System ---
+1. Add Product (Admin)
+2. View Products
+3. Add to Cart
+4. Remove from Cart
+5. View Cart
+6. Checkout
+7. Exit
+
+Constraints:
+
+Use OOP concepts (Product, Cart, Bill, SupermarketManager).
+
+Use Collections (ArrayList / HashMap) to store products and cart items.
+
+Prevent errors:
+
+Cannot buy more than available stock.
+
+Cannot checkout with empty cart.

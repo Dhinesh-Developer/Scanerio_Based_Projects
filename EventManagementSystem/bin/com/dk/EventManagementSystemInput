@@ -1,0 +1,73 @@
+📌 Problem Statement: Event Management System
+
+Design and implement a console-based Event Management System in Java.
+
+Requirements:
+
+An event has:
+
+Event ID (unique, auto-generated)
+
+Event Name
+
+Organizer
+
+Date
+
+Venue
+
+Total Seats
+
+Booked Seats
+
+Users can perform the following actions:
+
+Create Event (Add new event details)
+
+View All Events (list all created events)
+
+Book Ticket for an event (reduce available seats, store booking info)
+
+Cancel Ticket for an event (free up a seat)
+
+Search Event by name or ID
+
+Delete Event (only if no tickets booked)
+
+Each booking stores:
+
+Booking ID
+
+Customer Name
+
+Event ID
+
+No. of Tickets booked
+
+System must prevent overbooking (cannot book more seats than available).
+
+Menu-driven interface for user interaction.
+
+Sample Menu
+--- Event Management System ---
+1. Create Event
+2. View Events
+3. Book Ticket
+4. Cancel Ticket
+5. Search Event
+6. Delete Event
+7. Exit
+
+Constraints
+
+Use OOP concepts: Event class, Booking class, EventManager class.
+
+Use Collections (ArrayList/HashMap) to manage events and bookings.
+
+Handle edge cases:
+
+Booking when no seats are available.
+
+Cancelling with an invalid booking ID.
+
+Deleting an event that already has bookings.

@@ -1,0 +1,171 @@
+
+--- Bus Ticket Booking System ---
+1. Book Ticket
+2. Cancel Ticket
+3. View Available Seats
+4. View Booked Tickets
+5. Exit
+Enter your choice: 1
+Enter Name: 
+Vijay
+Enter Age: 
+25
+Enter Gender (Male/Female): 
+Male
+✅ Ticket booked succesfully! seats No: 1
+
+--- Bus Ticket Booking System ---
+1. Book Ticket
+2. Cancel Ticket
+3. View Available Seats
+4. View Booked Tickets
+5. Exit
+Enter your choice: 1
+Enter Name: 
+kirthika
+Enter Age: 
+25
+Enter Gender (Male/Female): 
+Female
+✅ Ticket booked succesfully! seats No: 2
+
+--- Bus Ticket Booking System ---
+1. Book Ticket
+2. Cancel Ticket
+3. View Available Seats
+4. View Booked Tickets
+5. Exit
+Enter your choice: 1
+Enter Name: 
+kumar
+Enter Age: 
+19
+Enter Gender (Male/Female): 
+Male
+✅ Ticket booked succesfully! seats No: 3
+
+--- Bus Ticket Booking System ---
+1. Book Ticket
+2. Cancel Ticket
+3. View Available Seats
+4. View Booked Tickets
+5. Exit
+Enter your choice: 1
+Enter Name: 
+virat
+Enter Age: 
+25
+Enter Gender (Male/Female): 
+Male
+✅ Ticket booked succesfully! seats No: 4
+
+--- Bus Ticket Booking System ---
+1. Book Ticket
+2. Cancel Ticket
+3. View Available Seats
+4. View Booked Tickets
+5. Exit
+Enter your choice: 3
+Available Seats: 
+5 6 7 8 9 10 
+
+--- Bus Ticket Booking System ---
+1. Book Ticket
+2. Cancel Ticket
+3. View Available Seats
+4. View Booked Tickets
+5. Exit
+Enter your choice: 4
+Booked Tickets: 
+Passenger [name=Vijay, age=25, gender=Male, seatNumber=1]
+Passenger [name=kirthika, age=25, gender=Female, seatNumber=2]
+Passenger [name=kumar, age=19, gender=Male, seatNumber=3]
+Passenger [name=virat, age=25, gender=Male, seatNumber=4]
+
+--- Bus Ticket Booking System ---
+1. Book Ticket
+2. Cancel Ticket
+3. View Available Seats
+4. View Booked Tickets
+5. Exit
+Enter your choice: 2
+Enter the Seat No to cancel: 
+4
+✅ Ticket cancelled for Seat No: 4
+
+--- Bus Ticket Booking System ---
+1. Book Ticket
+2. Cancel Ticket
+3. View Available Seats
+4. View Booked Tickets
+5. Exit
+Enter your choice: 4
+Booked Tickets: 
+Passenger [name=Vijay, age=25, gender=Male, seatNumber=1]
+Passenger [name=kirthika, age=25, gender=Female, seatNumber=2]
+Passenger [name=kumar, age=19, gender=Male, seatNumber=3]
+
+--- Bus Ticket Booking System ---
+1. Book Ticket
+2. Cancel Ticket
+3. View Available Seats
+4. View Booked Tickets
+5. Exit
+Enter your choice: 2
+Enter the Seat No to cancel: 
+4
+❌ Invalid seat number or seat not booked.
+
+--- Bus Ticket Booking System ---
+1. Book Ticket
+2. Cancel Ticket
+3. View Available Seats
+4. View Booked Tickets
+5. Exit
+Enter your choice: 1
+Enter Name: 
+virat
+Enter Age: 
+32
+Enter Gender (Male/Female): 
+MAle
+✅ Ticket booked succesfully! seats No: 4
+
+--- Bus Ticket Booking System ---
+1. Book Ticket
+2. Cancel Ticket
+3. View Available Seats
+4. View Booked Tickets
+5. Exit
+Enter your choice: 1
+Enter Name: 
+meera
+Enter Age: 
+25
+Enter Gender (Male/Female): 
+Female
+✅ Ticket booked succesfully! seats No: 5
+
+--- Bus Ticket Booking System ---
+1. Book Ticket
+2. Cancel Ticket
+3. View Available Seats
+4. View Booked Tickets
+5. Exit
+Enter your choice: 4
+Booked Tickets: 
+Passenger [name=Vijay, age=25, gender=Male, seatNumber=1]
+Passenger [name=kirthika, age=25, gender=Female, seatNumber=2]
+Passenger [name=kumar, age=19, gender=Male, seatNumber=3]
+Passenger [name=virat, age=32, gender=MAle, seatNumber=4]
+Passenger [name=meera, age=25, gender=Female, seatNumber=5]
+
+--- Bus Ticket Booking System ---
+1. Book Ticket
+2. Cancel Ticket
+3. View Available Seats
+4. View Booked Tickets
+5. Exit
+Enter your choice: 3
+Available Seats: 
+6 7 8 9 10 

@@ -1,0 +1,130 @@
+
+ MAil Management System:
+1. Store Mail
+2. Delete Mail
+3. Add tag
+4. Show Statistics
+5. Search
+6. WildCard Search
+7. Exit
+Enter your choice: 
+1
+Enter sender email: 
+arun@gmail.com
+Enter receiver email: 
+vijay@gmail.com
+Enter subject: 
+Meeting
+Enter content: 
+please join the evening meeting
+Mail stored successfully!
+
+ MAil Management System:
+1. Store Mail
+2. Delete Mail
+3. Add tag
+4. Show Statistics
+5. Search
+6. WildCard Search
+7. Exit
+Enter your choice: 
+1
+Enter sender email: 
+damo@gmail.com
+Enter receiver email: 
+dk@gmail.com
+Enter subject: 
+PArty
+Enter content: 
+please join a Engineer day contest
+Mail stored successfully!
+
+ MAil Management System:
+1. Store Mail
+2. Delete Mail
+3. Add tag
+4. Show Statistics
+5. Search
+6. WildCard Search
+7. Exit
+Enter your choice: 
+3
+Enter mail index: 
+0
+Enter tag: 
+urgent
+Tag added sucessfully!
+
+ MAil Management System:
+1. Store Mail
+2. Delete Mail
+3. Add tag
+4. Show Statistics
+5. Search
+6. WildCard Search
+7. Exit
+Enter your choice: 
+3
+Enter mail index: 
+1
+Enter tag: 
+winner
+Tag added sucessfully!
+
+ MAil Management System:
+1. Store Mail
+2. Delete Mail
+3. Add tag
+4. Show Statistics
+5. Search
+6. WildCard Search
+7. Exit
+Enter your choice: 
+4
+
+Mail Statistics:
+Total Mails: 2
+
+Enter number of recent mails to display: 
+5
+
+Recent 5 mails:
+Mail [sender=arun@gmail.com
+, receiver=vijay@gmail.com
+, subject=Meeting
+, content=please join the evening meeting
+, tags=[]
+, isSpam=false]
+
+Mail [sender=damo@gmail.com
+, receiver=dk@gmail.com
+, subject=PArty
+, content=please join a Engineer day contest
+, tags=[]
+, isSpam=false]
+
+
+ MAil Management System:
+1. Store Mail
+2. Delete Mail
+3. Add tag
+4. Show Statistics
+5. Search
+6. WildCard Search
+7. Exit
+Enter your choice: 
+6
+Enter wildcard pattern (use * for any characters): 
+*dk
+No mails found matching the pattern.
+
+ MAil Management System:
+1. Store Mail
+2. Delete Mail
+3. Add tag
+4. Show Statistics
+5. Search
+6. WildCard Search
+7. Exit
+Enter your choice: 
+*dk*

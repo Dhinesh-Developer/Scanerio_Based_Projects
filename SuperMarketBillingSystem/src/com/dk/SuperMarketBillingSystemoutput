@@ -1,0 +1,271 @@
+
+--- Supermarket Billing System ---
+1. Add Product (Admin)
+2. View Products
+3. Add to Cart
+4. Remove from Cart
+5. View Cart
+6. Checkout
+7. Exit
+Enter choice: 1
+Enter Product Name: Rice
+Enter Price: 50
+Enter Stock: 50
+Products added successfully product ID: 100
+
+--- Supermarket Billing System ---
+1. Add Product (Admin)
+2. View Products
+3. Add to Cart
+4. Remove from Cart
+5. View Cart
+6. Checkout
+7. Exit
+Enter choice: 1
+Enter Product Name: Wheat
+Enter Price: 45
+Enter Stock: 100
+Products added successfully product ID: 101
+
+--- Supermarket Billing System ---
+1. Add Product (Admin)
+2. View Products
+3. Add to Cart
+4. Remove from Cart
+5. View Cart
+6. Checkout
+7. Exit
+Enter choice: 1
+Enter Product Name: Egg
+Enter Price: 5
+Enter Stock: 500
+Products added successfully product ID: 102
+
+--- Supermarket Billing System ---
+1. Add Product (Admin)
+2. View Products
+3. Add to Cart
+4. Remove from Cart
+5. View Cart
+6. Checkout
+7. Exit
+Enter choice: 1
+Enter Product Name: soap
+Enter Price: 50
+Enter Stock: 1000
+Products added successfully product ID: 103
+
+--- Supermarket Billing System ---
+1. Add Product (Admin)
+2. View Products
+3. Add to Cart
+4. Remove from Cart
+5. View Cart
+6. Checkout
+7. Exit
+Enter choice: 1
+Enter Product Name: juice
+Enter Price: 10
+Enter Stock: 100
+Products added successfully product ID: 104
+
+--- Supermarket Billing System ---
+1. Add Product (Admin)
+2. View Products
+3. Add to Cart
+4. Remove from Cart
+5. View Cart
+6. Checkout
+7. Exit
+Enter choice: 1
+Enter Product Name: biscuit
+Enter Price: 20
+Enter Stock: 1000
+Products added successfully product ID: 105
+
+--- Supermarket Billing System ---
+1. Add Product (Admin)
+2. View Products
+3. Add to Cart
+4. Remove from Cart
+5. View Cart
+6. Checkout
+7. Exit
+Enter choice: 2
+Product [productId=100, name=Rice, price=50.0, stock=50]
+Product [productId=101, name=Wheat, price=45.0, stock=100]
+Product [productId=102, name=Egg, price=5.0, stock=500]
+Product [productId=103, name=soap, price=50.0, stock=1000]
+Product [productId=104, name=juice, price=10.0, stock=100]
+Product [productId=105, name=biscuit, price=20.0, stock=1000]
+
+--- Supermarket Billing System ---
+1. Add Product (Admin)
+2. View Products
+3. Add to Cart
+4. Remove from Cart
+5. View Cart
+6. Checkout
+7. Exit
+Enter choice: 3
+Enter Product ID: 100
+Enter Quantity: 2
+Added to cart : Rice x 2
+
+--- Supermarket Billing System ---
+1. Add Product (Admin)
+2. View Products
+3. Add to Cart
+4. Remove from Cart
+5. View Cart
+6. Checkout
+7. Exit
+Enter choice: 3
+Enter Product ID: 102
+Enter Quantity: 20
+Added to cart : Egg x 20
+
+--- Supermarket Billing System ---
+1. Add Product (Admin)
+2. View Products
+3. Add to Cart
+4. Remove from Cart
+5. View Cart
+6. Checkout
+7. Exit
+Enter choice: 3
+Enter Product ID: 103
+Enter Quantity: 1
+Added to cart : soap x 1
+
+--- Supermarket Billing System ---
+1. Add Product (Admin)
+2. View Products
+3. Add to Cart
+4. Remove from Cart
+5. View Cart
+6. Checkout
+7. Exit
+Enter choice: 5
+🛒 Cart Items:
+cartItem [product=Product [productId=100, name=Rice, price=50.0, stock=48], quantity=2]
+cartItem [product=Product [productId=102, name=Egg, price=5.0, stock=480], quantity=20]
+cartItem [product=Product [productId=103, name=soap, price=50.0, stock=999], quantity=1]
+Total price : 250.0
+
+--- Supermarket Billing System ---
+1. Add Product (Admin)
+2. View Products
+3. Add to Cart
+4. Remove from Cart
+5. View Cart
+6. Checkout
+7. Exit
+Enter choice: 3
+Enter Product ID: 104
+Enter Quantity: 5
+Added to cart : juice x 5
+
+--- Supermarket Billing System ---
+1. Add Product (Admin)
+2. View Products
+3. Add to Cart
+4. Remove from Cart
+5. View Cart
+6. Checkout
+7. Exit
+Enter choice: 5
+🛒 Cart Items:
+cartItem [product=Product [productId=100, name=Rice, price=50.0, stock=48], quantity=2]
+cartItem [product=Product [productId=102, name=Egg, price=5.0, stock=480], quantity=20]
+cartItem [product=Product [productId=103, name=soap, price=50.0, stock=999], quantity=1]
+cartItem [product=Product [productId=104, name=juice, price=10.0, stock=95], quantity=5]
+Total price : 300.0
+
+--- Supermarket Billing System ---
+1. Add Product (Admin)
+2. View Products
+3. Add to Cart
+4. Remove from Cart
+5. View Cart
+6. Checkout
+7. Exit
+Enter choice: 4
+Enter Product ID: 104
+Enter Quantity to Remove: 5
+Removed 5 units from the cart
+
+--- Supermarket Billing System ---
+1. Add Product (Admin)
+2. View Products
+3. Add to Cart
+4. Remove from Cart
+5. View Cart
+6. Checkout
+7. Exit
+Enter choice: 5
+🛒 Cart Items:
+cartItem [product=Product [productId=100, name=Rice, price=50.0, stock=48], quantity=2]
+cartItem [product=Product [productId=102, name=Egg, price=5.0, stock=480], quantity=20]
+cartItem [product=Product [productId=103, name=soap, price=50.0, stock=999], quantity=1]
+cartItem [product=Product [productId=104, name=juice, price=10.0, stock=100], quantity=0]
+Total price : 250.0
+
+--- Supermarket Billing System ---
+1. Add Product (Admin)
+2. View Products
+3. Add to Cart
+4. Remove from Cart
+5. View Cart
+6. Checkout
+7. Exit
+Enter choice: 2
+Product [productId=100, name=Rice, price=50.0, stock=48]
+Product [productId=101, name=Wheat, price=45.0, stock=100]
+Product [productId=102, name=Egg, price=5.0, stock=480]
+Product [productId=103, name=soap, price=50.0, stock=999]
+Product [productId=104, name=juice, price=10.0, stock=100]
+Product [productId=105, name=biscuit, price=20.0, stock=1000]
+
+--- Supermarket Billing System ---
+1. Add Product (Admin)
+2. View Products
+3. Add to Cart
+4. Remove from Cart
+5. View Cart
+6. Checkout
+7. Exit
+Enter choice: 3
+Enter Product ID: 103
+Enter Quantity: 2
+Added to cart : soap x 2
+
+--- Supermarket Billing System ---
+1. Add Product (Admin)
+2. View Products
+3. Add to Cart
+4. Remove from Cart
+5. View Cart
+6. Checkout
+7. Exit
+Enter choice: 6
+cartItem [product=Product [productId=100, name=Rice, price=50.0, stock=48], quantity=2]
+cartItem [product=Product [productId=102, name=Egg, price=5.0, stock=480], quantity=20]
+cartItem [product=Product [productId=103, name=soap, price=50.0, stock=997], quantity=3]
+cartItem [product=Product [productId=104, name=juice, price=10.0, stock=100], quantity=0]
+Total: 350.0
+Discount: 0.0
+Final Payable: 350.0
+--- Thank you! Visit again ---
+
+
+--- Supermarket Billing System ---
+1. Add Product (Admin)
+2. View Products
+3. Add to Cart
+4. Remove from Cart
+5. View Cart
+6. Checkout
+7. Exit
+Enter choice: 7
+Exiting Supermarket Billing System. Bye!

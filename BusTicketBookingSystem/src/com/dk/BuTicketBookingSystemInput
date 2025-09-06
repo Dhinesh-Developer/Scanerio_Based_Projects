@@ -1,0 +1,50 @@
+Problem Statement: Bus Ticket Booking System
+
+You are asked to design a simple Bus Ticket Booking Application in Java.
+
+A bus has a limited number of seats. Passengers can book tickets if seats are available, cancel tickets if needed, and the system should properly handle seat allocation.
+
+Requirements:
+
+The bus has a fixed number of seats (say 40).
+
+A passenger can:
+
+		Book a ticket if seats are available.
+		
+		Cancel a ticket (free up the seat).
+		
+		View available seats.
+		
+		View booked passenger details.
+		
+		Each booking should store passenger details:
+
+				Name
+				
+				Age
+				
+				Gender
+
+Seat Number (assigned automatically based on availability)
+
+If no seats are available, booking should fail with a proper message.
+
+If a ticket is cancelled, the seat should become available for the next booking.
+
+The system should be menu-driven (console-based).
+
+Sample Menu:
+1. Book Ticket
+2. Cancel Ticket
+3. View Available Seats
+4. View Booked Tickets
+5. Exit
+
+Constraints:
+
+Only one passenger can occupy a seat.
+
+Seat numbers should be unique and automatically assigned in order.
+
+Try to use Object-Oriented Design (Passenger class, Bus class, BookingManager class, etc.).
