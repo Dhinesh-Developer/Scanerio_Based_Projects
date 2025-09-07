@@ -1,0 +1,265 @@
+
+--- File Management System ---
+1. Create Folder
+2. Create File
+3. Write Content to File
+4. Read File Content
+5. List All Files and Folders
+6. Delete File
+7. Delete Folder
+8. Exit
+Enter choice: 1
+Enter folder name: docs
+Folder 'docs' created.
+
+--- File Management System ---
+1. Create Folder
+2. Create File
+3. Write Content to File
+4. Read File Content
+5. List All Files and Folders
+6. Delete File
+7. Delete Folder
+8. Exit
+Enter choice: 2
+Enter folder name to create file in: docs
+Enter file name: notes.txt
+ File 'notes.txt' created.
+
+--- File Management System ---
+1. Create Folder
+2. Create File
+3. Write Content to File
+4. Read File Content
+5. List All Files and Folders
+6. Delete File
+7. Delete Folder
+8. Exit
+Enter choice: 3
+Enter folder name of file: docs
+Enter file name: notes.txt
+Enter content: I am DhineshKumar M
+ Content written.
+
+--- File Management System ---
+1. Create Folder
+2. Create File
+3. Write Content to File
+4. Read File Content
+5. List All Files and Folders
+6. Delete File
+7. Delete Folder
+8. Exit
+Enter choice: 4
+Enter folder name of file: docs
+Enter file name: notes.txt
+📄 Content: I am DhineshKumar M
+
+--- File Management System ---
+1. Create Folder
+2. Create File
+3. Write Content to File
+4. Read File Content
+5. List All Files and Folders
+6. Delete File
+7. Delete Folder
+8. Exit
+Enter choice: 5
+root/
+   docs/
+      notes.txt (size=19)
+
+--- File Management System ---
+1. Create Folder
+2. Create File
+3. Write Content to File
+4. Read File Content
+5. List All Files and Folders
+6. Delete File
+7. Delete Folder
+8. Exit
+Enter choice: 1
+Enter folder name: testing
+Folder 'testing' created.
+
+--- File Management System ---
+1. Create Folder
+2. Create File
+3. Write Content to File
+4. Read File Content
+5. List All Files and Folders
+6. Delete File
+7. Delete Folder
+8. Exit
+Enter choice: 2
+Enter folder name to create file in: testing
+Enter file name: test.txt
+ File 'test.txt' created.
+
+--- File Management System ---
+1. Create Folder
+2. Create File
+3. Write Content to File
+4. Read File Content
+5. List All Files and Folders
+6. Delete File
+7. Delete Folder
+8. Exit
+Enter choice: 3
+Enter folder name of file: testing
+Enter file name: test.txt
+Enter content: This it to be tested
+ Content written.
+
+--- File Management System ---
+1. Create Folder
+2. Create File
+3. Write Content to File
+4. Read File Content
+5. List All Files and Folders
+6. Delete File
+7. Delete Folder
+8. Exit
+Enter choice: 5
+root/
+   docs/
+      notes.txt (size=19)
+   testing/
+      test.txt (size=20)
+
+--- File Management System ---
+1. Create Folder
+2. Create File
+3. Write Content to File
+4. Read File Content
+5. List All Files and Folders
+6. Delete File
+7. Delete Folder
+8. Exit
+Enter choice: 6
+Enter folder name of file: testnig
+ Folder not found.
+
+--- File Management System ---
+1. Create Folder
+2. Create File
+3. Write Content to File
+4. Read File Content
+5. List All Files and Folders
+6. Delete File
+7. Delete Folder
+8. Exit
+Enter choice: 6
+Enter folder name of file: testing
+Enter file name: test.txt
+ File deleted.
+
+--- File Management System ---
+1. Create Folder
+2. Create File
+3. Write Content to File
+4. Read File Content
+5. List All Files and Folders
+6. Delete File
+7. Delete Folder
+8. Exit
+Enter choice: 7
+Enter folder name: testing
+ Folder deleted.
+
+--- File Management System ---
+1. Create Folder
+2. Create File
+3. Write Content to File
+4. Read File Content
+5. List All Files and Folders
+6. Delete File
+7. Delete Folder
+8. Exit
+Enter choice: 5
+root/
+   docs/
+      notes.txt (size=19)
+
+--- File Management System ---
+1. Create Folder
+2. Create File
+3. Write Content to File
+4. Read File Content
+5. List All Files and Folders
+6. Delete File
+7. Delete Folder
+8. Exit
+Enter choice: 7
+Enter folder name: 1
+ Folder not found.
+
+--- File Management System ---
+1. Create Folder
+2. Create File
+3. Write Content to File
+4. Read File Content
+5. List All Files and Folders
+6. Delete File
+7. Delete Folder
+8. Exit
+Enter choice: 1
+Enter folder name: final
+Folder 'final' created.
+
+--- File Management System ---
+1. Create Folder
+2. Create File
+3. Write Content to File
+4. Read File Content
+5. List All Files and Folders
+6. Delete File
+7. Delete Folder
+8. Exit
+Enter choice: 2
+Enter folder name to create file in: final
+Enter file name: input.txt
+ File 'input.txt' created.
+
+--- File Management System ---
+1. Create Folder
+2. Create File
+3. Write Content to File
+4. Read File Content
+5. List All Files and Folders
+6. Delete File
+7. Delete Folder
+8. Exit
+Enter choice: 3
+Enter folder name of file: final
+Enter file name: input.txt
+Enter content: This is input
+ Content written.
+
+--- File Management System ---
+1. Create Folder
+2. Create File
+3. Write Content to File
+4. Read File Content
+5. List All Files and Folders
+6. Delete File
+7. Delete Folder
+8. Exit
+Enter choice: 5
+root/
+   docs/
+      notes.txt (size=19)
+   final/
+      input.txt (size=13)
+
+--- File Management System ---
+1. Create Folder
+2. Create File
+3. Write Content to File
+4. Read File Content
+5. List All Files and Folders
+6. Delete File
+7. Delete Folder
+8. Exit
+Enter choice: 8
+ Exiting File Management System.

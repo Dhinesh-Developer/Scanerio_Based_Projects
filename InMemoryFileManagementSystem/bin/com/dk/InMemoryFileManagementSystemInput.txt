@@ -1,0 +1,34 @@
+📌 Problem Statement: In-Memory File Management System
+
+You need to design and implement a console-based File Management System that simulates basic file operations in memory (not on actual disk).
+
+🎯 Requirements
+
+Entities: 
+
+A File should have:
+File name (unique inside a folder)
+File content (text)
+File size (auto-calculated from content length)
+A Folder should have:
+Folder name (unique inside parent folder)
+Can contain multiple Files and Subfolders
+Operations (Menu-driven)
+
+--- File Management System ---
+1. Create Folder
+2. Create File
+3. Write Content to File
+4. Read File Content
+5. List All Files and Folders
+6. Delete File
+7. Delete Folder
+8. Exit
+
+
+Rules:
+
+No two files with the same name inside one folder.
+No two folders with the same name inside one folder.
+File size updates automatically when content changes.
+Deleting a folder should delete all its files and subfolders.

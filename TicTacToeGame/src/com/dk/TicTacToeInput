@@ -1,0 +1,41 @@
+📌 Problem Statement: Tic Tac Toe in Java
+
+Design and implement a console-based Tic Tac Toe game in Java.
+
+🎯 Requirements
+
+Game Setup
+
+The board is a 3×3 grid.
+
+Two players: Player X and Player O.
+
+Gameplay Rules
+
+Players take turns marking an empty cell with their symbol (X or O).
+
+A player wins if they have 3 of their marks in:
+
+a row, OR
+
+a column, OR
+
+a diagonal.
+
+Game End Conditions
+
+If a player wins, print “Player X/O Wins!”.
+
+If all cells are filled and no winner, print “It’s a Draw!”.
+
+Constraints
+
+Input must be valid (no overriding a filled cell).
+
+Use OOP concepts where possible.
+
+Should be menu-driven:
+
+--- Tic Tac Toe ---
+1. Start Game
+2. Exit

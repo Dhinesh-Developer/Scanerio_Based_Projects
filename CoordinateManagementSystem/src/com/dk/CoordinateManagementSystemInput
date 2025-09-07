@@ -1,0 +1,43 @@
+🎯 Problem Statement
+
+Build a menu-driven Java program that allows the user to create and manage points on a 2D plane, and perform operations such as distance calculation, nearest/farthest points, and searching within a radius.
+
+✅ Requirements
+1. Entity: Point
+
+Each point has:
+
+ID (unique, auto-generated)
+
+X-coordinate (int/float)
+
+Y-coordinate (int/float)
+
+2. Functionalities (Menu Options)
+--- Coordinate Management System ---
+1. Add a Point
+2. View All Points
+3. Find Distance between Two Points
+4. Find Nearest Point to Origin (0,0)
+5. Find Nearest Point to a Given Point
+6. Find All Points within a Radius
+7. Exit
+
+3. Distance Calculation
+
+Formula:
+
+distance = √((x2 - x1)² + (y2 - y1)²)
+
+
+Example: Point1 = (3,4), Point2 = (0,0) → Distance = 5
+
+4. Business Rules
+
+No duplicate IDs → Each point must have a unique auto-generated ID.
+
+Negative coordinates allowed (since points can be in all 4 quadrants).
+
+If no points exist, operations should display an error message.
+
+If multiple points are at the same nearest distance → return any one.

@@ -1,0 +1,349 @@
+
+--- Invoice Management System ---
+1. Add Customer
+2. Add Product
+3. View Customers
+4. View Products
+5. Create Invoice
+6. View All Invoices
+7. Exit
+Enter choice: 1
+Enter Customer Name: 
+Vijay
+Enter Phone Number: 
+987987734
+Customer added successfully! Customer ID : 1000
+
+--- Invoice Management System ---
+1. Add Customer
+2. Add Product
+3. View Customers
+4. View Products
+5. Create Invoice
+6. View All Invoices
+7. Exit
+Enter choice: 1
+Enter Customer Name: 
+kumar
+Enter Phone Number: 
+9879834523
+Customer added successfully! Customer ID : 1000
+
+--- Invoice Management System ---
+1. Add Customer
+2. Add Product
+3. View Customers
+4. View Products
+5. Create Invoice
+6. View All Invoices
+7. Exit
+Enter choice: 2
+Enter product Name : 
+Iphone
+Enter the price: 
+100000.00
+Enter stock Quantity: 
+1
+Product Added Successfully! Product ID: 2000
+
+--- Invoice Management System ---
+1. Add Customer
+2. Add Product
+3. View Customers
+4. View Products
+5. Create Invoice
+6. View All Invoices
+7. Exit
+Enter choice: 2
+Enter product Name : 
+Mac book
+Enter the price: 
+200000.00
+Enter stock Quantity: 
+1
+Product Added Successfully! Product ID: 2000
+
+--- Invoice Management System ---
+1. Add Customer
+2. Add Product
+3. View Customers
+4. View Products
+5. Create Invoice
+6. View All Invoices
+7. Exit
+Enter choice: 3
+Customer [counter=1001, customerId=1000, name=, phoneNumber=9879834523]
+
+--- Invoice Management System ---
+1. Add Customer
+2. Add Product
+3. View Customers
+4. View Products
+5. Create Invoice
+6. View All Invoices
+7. Exit
+Enter choice: 4
+Product [counter=2001, productId=2000, name=, price=200000.0, stocks=1]
+
+--- Invoice Management System ---
+1. Add Customer
+2. Add Product
+3. View Customers
+4. View Products
+5. Create Invoice
+6. View All Invoices
+7. Exit
+Enter choice: 5
+Enter the customer ID: 
+1001
+Enter product Id (0 to stop): 
+2001
+Enter Quantity: 
+1
+Enter product Id (0 to stop): 
+0
+Customer Not Found
+
+--- Invoice Management System ---
+1. Add Customer
+2. Add Product
+3. View Customers
+4. View Products
+5. Create Invoice
+6. View All Invoices
+7. Exit
+Enter choice: 5
+Enter the customer ID: 
+1000
+Enter product Id (0 to stop): 
+0
+
+--- Invoice Management System ---
+1. Add Customer
+2. Add Product
+3. View Customers
+4. View Products
+5. Create Invoice
+6. View All Invoices
+7. Exit
+Enter choice: 5
+Enter the customer ID: 
+1000
+Enter product Id (0 to stop): 
+2000
+Enter Quantity: 
+1
+Enter product Id (0 to stop): 
+0
+
+--- Invoice ---
+Invoice ID: 3000
+Customer: 
+Items:
+  InvoiceItem [product=Product [counter=2001, productId=2000, name=, price=200000.0, stocks=0], quantity=1]
+Total: 200000.0
+Discount: 0.2
+Tax (18% GST): 35999.964
+Final Amount: 235999.764
+--- Thank You ---
+
+
+--- Invoice Management System ---
+1. Add Customer
+2. Add Product
+3. View Customers
+4. View Products
+5. Create Invoice
+6. View All Invoices
+7. Exit
+Enter choice: 1
+Enter Customer Name: 
+karthi
+Enter Phone Number: 
+9782345323
+Customer added successfully! Customer ID : 1000
+
+--- Invoice Management System ---
+1. Add Customer
+2. Add Product
+3. View Customers
+4. View Products
+5. Create Invoice
+6. View All Invoices
+7. Exit
+Enter choice: 2
+Enter product Name : 
+Rolls Royal
+Enter the price: 
+1400000.00
+Enter stock Quantity: 
+1
+Product Added Successfully! Product ID: 2000
+
+--- Invoice Management System ---
+1. Add Customer
+2. Add Product
+3. View Customers
+4. View Products
+5. Create Invoice
+6. View All Invoices
+7. Exit
+Enter choice: 2
+Enter product Name : 
+BMW
+Enter the price: 
+1000000.00
+Enter stock Quantity: 
+1
+Product Added Successfully! Product ID: 2000
+
+--- Invoice Management System ---
+1. Add Customer
+2. Add Product
+3. View Customers
+4. View Products
+5. Create Invoice
+6. View All Invoices
+7. Exit
+Enter choice: 4
+Product [counter=2001, productId=2000, name=, price=1000000.0, stocks=1]
+
+--- Invoice Management System ---
+1. Add Customer
+2. Add Product
+3. View Customers
+4. View Products
+5. Create Invoice
+6. View All Invoices
+7. Exit
+Enter choice: 6
+
+--- Invoice ---
+Invoice ID: 3000
+Customer: 
+Items:
+  InvoiceItem [product=Product [counter=2001, productId=2000, name=, price=200000.0, stocks=0], quantity=1]
+Total: 200000.0
+Discount: 0.2
+Tax (18% GST): 35999.964
+Final Amount: 235999.764
+--- Thank You ---
+
+
+--- Invoice Management System ---
+1. Add Customer
+2. Add Product
+3. View Customers
+4. View Products
+5. Create Invoice
+6. View All Invoices
+7. Exit
+Enter choice: 5
+Enter the customer ID: 
+1001
+Enter product Id (0 to stop): 
+2001
+Enter Quantity: 
+1
+Enter product Id (0 to stop): 
+0
+Customer Not Found
+
+--- Invoice Management System ---
+1. Add Customer
+2. Add Product
+3. View Customers
+4. View Products
+5. Create Invoice
+6. View All Invoices
+7. Exit
+Enter choice: 5
+Enter the customer ID: 
+1000
+Enter product Id (0 to stop): 
+2000
+Enter Quantity: 
+1
+Enter product Id (0 to stop): 
+0
+
+--- Invoice ---
+Invoice ID: 3000
+Customer: 
+Items:
+  InvoiceItem [product=Product [counter=2001, productId=2000, name=, price=1000000.0, stocks=0], quantity=1]
+Total: 1000000.0
+Discount: 0.2
+Tax (18% GST): 179999.964
+Final Amount: 1179999.764
+--- Thank You ---
+
+
+--- Invoice Management System ---
+1. Add Customer
+2. Add Product
+3. View Customers
+4. View Products
+5. Create Invoice
+6. View All Invoices
+7. Exit
+Enter choice: 6
+
+--- Invoice ---
+Invoice ID: 3000
+Customer: 
+Items:
+  InvoiceItem [product=Product [counter=2001, productId=2000, name=, price=1000000.0, stocks=0], quantity=1]
+Total: 1000000.0
+Discount: 0.2
+Tax (18% GST): 179999.964
+Final Amount: 1179999.764
+--- Thank You ---
+
+
+--- Invoice Management System ---
+1. Add Customer
+2. Add Product
+3. View Customers
+4. View Products
+5. Create Invoice
+6. View All Invoices
+7. Exit
+Enter choice: 1
+Enter Customer Name: 
+Varun
+Enter Phone Number: 
+8979878324
+Customer added successfully! Customer ID : 1000
+
+--- Invoice Management System ---
+1. Add Customer
+2. Add Product
+3. View Customers
+4. View Products
+5. Create Invoice
+6. View All Invoices
+7. Exit
+Enter choice: 6
+
+--- Invoice ---
+Invoice ID: 3000
+Customer: 
+Items:
+  InvoiceItem [product=Product [counter=2001, productId=2000, name=, price=1000000.0, stocks=0], quantity=1]
+Total: 1000000.0
+Discount: 0.2
+Tax (18% GST): 179999.964
+Final Amount: 1179999.764
+--- Thank You ---
+
+
+--- Invoice Management System ---
+1. Add Customer
+2. Add Product
+3. View Customers
+4. View Products
+5. Create Invoice
+6. View All Invoices
+7. Exit
+Enter choice: 

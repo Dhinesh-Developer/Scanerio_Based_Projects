@@ -1,0 +1,266 @@
+
+--- Coordinate Management System ---
+1. Add a Point
+2. View All Points
+3. Find Distance between Two Points
+4. Find Nearest Point to Origin
+5. Find Nearest Point to a Given Point
+6. Find All Points within a Radius
+7. Exit
+Enter choice: 1
+Enter X coordinate: 3
+Enter Y coordinate: 4
+Point added with ID: 1000
+
+--- Coordinate Management System ---
+1. Add a Point
+2. View All Points
+3. Find Distance between Two Points
+4. Find Nearest Point to Origin
+5. Find Nearest Point to a Given Point
+6. Find All Points within a Radius
+7. Exit
+Enter choice: 1
+Enter X coordinate: -2
+Enter Y coordinate: 1
+Point added with ID: 1001
+
+--- Coordinate Management System ---
+1. Add a Point
+2. View All Points
+3. Find Distance between Two Points
+4. Find Nearest Point to Origin
+5. Find Nearest Point to a Given Point
+6. Find All Points within a Radius
+7. Exit
+Enter choice: 2
+Point [pointId=1000, x=3.0, y=4.0]
+Point [pointId=1001, x=-2.0, y=1.0]
+
+--- Coordinate Management System ---
+1. Add a Point
+2. View All Points
+3. Find Distance between Two Points
+4. Find Nearest Point to Origin
+5. Find Nearest Point to a Given Point
+6. Find All Points within a Radius
+7. Exit
+Enter choice: 3
+Enter Point1 ID: 100
+Enter Point2 ID: 1001
+Invalid Points ID!
+
+--- Coordinate Management System ---
+1. Add a Point
+2. View All Points
+3. Find Distance between Two Points
+4. Find Nearest Point to Origin
+5. Find Nearest Point to a Given Point
+6. Find All Points within a Radius
+7. Exit
+Enter choice: 2
+Point [pointId=1000, x=3.0, y=4.0]
+Point [pointId=1001, x=-2.0, y=1.0]
+
+--- Coordinate Management System ---
+1. Add a Point
+2. View All Points
+3. Find Distance between Two Points
+4. Find Nearest Point to Origin
+5. Find Nearest Point to a Given Point
+6. Find All Points within a Radius
+7. Exit
+Enter choice: 1000
+Invalid choice.
+
+--- Coordinate Management System ---
+1. Add a Point
+2. View All Points
+3. Find Distance between Two Points
+4. Find Nearest Point to Origin
+5. Find Nearest Point to a Given Point
+6. Find All Points within a Radius
+7. Exit
+Enter choice: 1002
+Invalid choice.
+
+--- Coordinate Management System ---
+1. Add a Point
+2. View All Points
+3. Find Distance between Two Points
+4. Find Nearest Point to Origin
+5. Find Nearest Point to a Given Point
+6. Find All Points within a Radius
+7. Exit
+Enter choice: 3
+Enter Point1 ID: 1000
+Enter Point2 ID: 1001
+Distance : 5.830951894845301
+
+--- Coordinate Management System ---
+1. Add a Point
+2. View All Points
+3. Find Distance between Two Points
+4. Find Nearest Point to Origin
+5. Find Nearest Point to a Given Point
+6. Find All Points within a Radius
+7. Exit
+Enter choice: 4
+Nearest point to origin: Point [pointId=1001, x=-2.0, y=1.0] with distance 2.23606797749979
+
+--- Coordinate Management System ---
+1. Add a Point
+2. View All Points
+3. Find Distance between Two Points
+4. Find Nearest Point to Origin
+5. Find Nearest Point to a Given Point
+6. Find All Points within a Radius
+7. Exit
+Enter choice: 5
+Enter Reference Point ID: 1001
+Nearest point to Point [pointId=1001, x=-2.0, y=1.0] is Point [pointId=1001, x=-2.0, y=1.0] with distance 5.830951894845301
+
+--- Coordinate Management System ---
+1. Add a Point
+2. View All Points
+3. Find Distance between Two Points
+4. Find Nearest Point to Origin
+5. Find Nearest Point to a Given Point
+6. Find All Points within a Radius
+7. Exit
+Enter choice: 6
+Enter radius: 5
+Point [pointId=1000, x=3.0, y=4.0] is within radius 5.0
+Point [pointId=1001, x=-2.0, y=1.0] is within radius 5.0
+
+--- Coordinate Management System ---
+1. Add a Point
+2. View All Points
+3. Find Distance between Two Points
+4. Find Nearest Point to Origin
+5. Find Nearest Point to a Given Point
+6. Find All Points within a Radius
+7. Exit
+Enter choice: 2
+Point [pointId=1000, x=3.0, y=4.0]
+Point [pointId=1001, x=-2.0, y=1.0]
+
+--- Coordinate Management System ---
+1. Add a Point
+2. View All Points
+3. Find Distance between Two Points
+4. Find Nearest Point to Origin
+5. Find Nearest Point to a Given Point
+6. Find All Points within a Radius
+7. Exit
+Enter choice: 1
+Enter X coordinate: 1
+Enter Y coordinate: 4
+Point added with ID: 1004
+
+--- Coordinate Management System ---
+1. Add a Point
+2. View All Points
+3. Find Distance between Two Points
+4. Find Nearest Point to Origin
+5. Find Nearest Point to a Given Point
+6. Find All Points within a Radius
+7. Exit
+Enter choice: 2
+Point [pointId=1000, x=3.0, y=4.0]
+Point [pointId=1001, x=-2.0, y=1.0]
+Point [pointId=1004, x=1.0, y=4.0]
+
+--- Coordinate Management System ---
+1. Add a Point
+2. View All Points
+3. Find Distance between Two Points
+4. Find Nearest Point to Origin
+5. Find Nearest Point to a Given Point
+6. Find All Points within a Radius
+7. Exit
+Enter choice: 1000
+Invalid choice.
+
+--- Coordinate Management System ---
+1. Add a Point
+2. View All Points
+3. Find Distance between Two Points
+4. Find Nearest Point to Origin
+5. Find Nearest Point to a Given Point
+6. Find All Points within a Radius
+7. Exit
+Enter choice: 1003
+Invalid choice.
+
+--- Coordinate Management System ---
+1. Add a Point
+2. View All Points
+3. Find Distance between Two Points
+4. Find Nearest Point to Origin
+5. Find Nearest Point to a Given Point
+6. Find All Points within a Radius
+7. Exit
+Enter choice: 3
+Enter Point1 ID: 1000
+Enter Point2 ID: 1003
+Invalid Points ID!
+
+--- Coordinate Management System ---
+1. Add a Point
+2. View All Points
+3. Find Distance between Two Points
+4. Find Nearest Point to Origin
+5. Find Nearest Point to a Given Point
+6. Find All Points within a Radius
+7. Exit
+Enter choice: 3
+Enter Point1 ID: 1000
+Enter Point2 ID: 1002
+Invalid Points ID!
+
+--- Coordinate Management System ---
+1. Add a Point
+2. View All Points
+3. Find Distance between Two Points
+4. Find Nearest Point to Origin
+5. Find Nearest Point to a Given Point
+6. Find All Points within a Radius
+7. Exit
+Enter choice: 1000
+Invalid choice.
+
+--- Coordinate Management System ---
+1. Add a Point
+2. View All Points
+3. Find Distance between Two Points
+4. Find Nearest Point to Origin
+5. Find Nearest Point to a Given Point
+6. Find All Points within a Radius
+7. Exit
+Enter choice: 4
+Nearest point to origin: Point [pointId=1001, x=-2.0, y=1.0] with distance 2.23606797749979
+
+--- Coordinate Management System ---
+1. Add a Point
+2. View All Points
+3. Find Distance between Two Points
+4. Find Nearest Point to Origin
+5. Find Nearest Point to a Given Point
+6. Find All Points within a Radius
+7. Exit
+Enter choice: 5
+Enter Reference Point ID: 1001
+Nearest point to Point [pointId=1001, x=-2.0, y=1.0] is Point [pointId=1001, x=-2.0, y=1.0] with distance 5.830951894845301
+Nearest point to Point [pointId=1001, x=-2.0, y=1.0] is Point [pointId=1001, x=-2.0, y=1.0] with distance 4.242640687119285
+
+--- Coordinate Management System ---
+1. Add a Point
+2. View All Points
+3. Find Distance between Two Points
+4. Find Nearest Point to Origin
+5. Find Nearest Point to a Given Point
+6. Find All Points within a Radius
+7. Exit
+Enter choice: 7
+Exiting Coordinate Management System.

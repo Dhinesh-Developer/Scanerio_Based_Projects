@@ -1,0 +1,83 @@
+📌 Problem Statement: Invoice Management System
+
+Design and implement a console-based Invoice Management System in Java.
+
+Requirements
+
+Customer Management
+
+Each customer has:
+
+Customer ID (unique)
+
+Name
+
+Contact Number / Email
+
+Product Management
+
+Each product has:
+
+Product ID (unique)
+
+Name
+
+Price per unit
+
+Stock Quantity
+
+Invoice Management
+
+Each invoice should have:
+
+Invoice ID (unique)
+
+Customer details
+
+Purchased products (with quantity & price)
+
+Total Amount
+
+Discount (if applicable)
+
+Tax (GST, e.g., 18%)
+
+Final Amount Payable
+
+Functionalities (Menu-Driven):
+
+--- Invoice Management System ---
+1. Add Customer
+2. Add Product
+3. View Customers
+4. View Products
+5. Create Invoice (Purchase)
+6. View All Invoices
+7. Exit
+
+
+Business Rules
+
+Cannot purchase more than available stock.
+
+Stock should reduce when purchased.
+
+Discounts: (example slab)
+
+500 → 5%
+
+1000 → 10%
+
+2000 → 20%
+
+GST (fixed 18%) should be applied after discount.
+
+Constraints
+
+Use OOP concepts (Customer, Product, Invoice, InvoiceItem, InvoiceManager).
+
+Use Collections (ArrayList, HashMap) to manage records.
+
+Handle edge cases:
+
+Invalid IDs, empty invoices, insufficient stock.

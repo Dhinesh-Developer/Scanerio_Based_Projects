@@ -1,0 +1,66 @@
+
+--- Tic Tac Toe ---
+1. Start Game
+2. Exit
+Enter choice: 1
+
+ - | - | - 
+---+---+---
+ - | - | - 
+---+---+---
+ - | - | - 
+
+Player X, enter row and column (1-3): 
+1 1
+
+ X | - | - 
+---+---+---
+ - | - | - 
+---+---+---
+ - | - | - 
+
+Player O, enter row and column (1-3): 
+2 2
+
+ X | - | - 
+---+---+---
+ - | O | - 
+---+---+---
+ - | - | - 
+
+Player X, enter row and column (1-3): 
+1 2
+
+ X | X | - 
+---+---+---
+ - | O | - 
+---+---+---
+ - | - | - 
+
+Player O, enter row and column (1-3): 
+3
+3
+
+ X | X | - 
+---+---+---
+ - | O | - 
+---+---+---
+ - | - | O 
+
+Player X, enter row and column (1-3): 
+1
+3
+
+ X | X | X 
+---+---+---
+ - | O | - 
+---+---+---
+ - | - | O 
+
+🎉 Player X Wins!
+
+--- Tic Tac Toe ---
+1. Start Game
+2. Exit
+Enter choice: 2
+👋 Exiting game.
