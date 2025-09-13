@@ -1,0 +1,35 @@
+📌 Problem Statement (Zoho-style)
+
+Design and implement a console-based Employee Management System in Java.
+
+The application should allow an HR/admin to perform the following operations:
+
+Add Employee – Enter employee details and save.
+
+View Employees – Display all employees.
+
+Search Employee – Search employee by ID or Name.
+
+Update Employee – Update details (e.g., salary, department).
+
+Delete Employee – Remove employee by ID.
+
+Exit – Quit the application.
+
+📌 Requirements
+
+Use Java Collections (ArrayList / HashMap) for storing employees.
+
+Each employee should have:
+
+Employee ID (unique, int)
+
+Name (String)
+
+Age (int)
+
+Department (String)
+
+Salary (double)
+
+Console-based menu-driven application (loop until user exits).

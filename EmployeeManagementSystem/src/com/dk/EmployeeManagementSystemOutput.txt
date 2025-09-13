@@ -1,0 +1,129 @@
+"C:\Program Files\Java\jdk-22\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\lib\idea_rt.jar=59350:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Arise_Projects\ARISE_PROJECTS\SourceCodes-main\SourceCodes-main\EmployeeManagementSystem\out\production\EmployeeManagementSystem com.dk.EmployeeManagementSystem
+--------Employee Management System-----------
+1. Add Employee
+2. View Employee
+3. Search Employee
+4. Update Employee
+5. Delete Employee
+6. Exit..
+Enter your choice:
+1
+Enter the Employee ID:
+1001
+Enter the Employee Name:
+kumar
+Enter the Employee Age:
+20
+Enter the Employee Department:
+Software developer Engineer
+Enter the Employee Salary:
+1000000
+Employee added successfully!
+--------Employee Management System-----------
+1. Add Employee
+2. View Employee
+3. Search Employee
+4. Update Employee
+5. Delete Employee
+6. Exit..
+Enter your choice:
+1
+Enter the Employee ID:
+1002
+Enter the Employee Name:
+dhinesh
+Enter the Employee Age:
+21
+Enter the Employee Department:
+Backend developer
+Enter the Employee Salary:
+2000000
+Employee added successfully!
+--------Employee Management System-----------
+1. Add Employee
+2. View Employee
+3. Search Employee
+4. Update Employee
+5. Delete Employee
+6. Exit..
+Enter your choice:
+2
+Employee details:
+Employee{empId=1001, name='', age=20, department='', salary=1000000.0}
+Employee{empId=1002, name='', age=21, department='', salary=2000000.0}
+--------Employee Management System-----------
+1. Add Employee
+2. View Employee
+3. Search Employee
+4. Update Employee
+5. Delete Employee
+6. Exit..
+Enter your choice:
+3
+Enter the Employee ID to search:
+1002
+Employee{empId=1002, name='', age=21, department='', salary=2000000.0}
+--------Employee Management System-----------
+1. Add Employee
+2. View Employee
+3. Search Employee
+4. Update Employee
+5. Delete Employee
+6. Exit..
+Enter your choice:
+4
+Enter the Employee ID to update:
+1002
+Enter the Employee Name:
+dk
+Enter the Employee Age:
+22
+Enter the Employee Department:
+Google backend developer
+Enter the Employee Salary:
+3000000
+Employee updated successfully!
+--------Employee Management System-----------
+1. Add Employee
+2. View Employee
+3. Search Employee
+4. Update Employee
+5. Delete Employee
+6. Exit..
+Enter your choice:
+3
+Enter the Employee ID to search:
+1002
+Employee{empId=1002, name='', age=22, department='', salary=3000000.0}
+--------Employee Management System-----------
+1. Add Employee
+2. View Employee
+3. Search Employee
+4. Update Employee
+5. Delete Employee
+6. Exit..
+Enter your choice:
+5
+Enter the ID to delete the Employee:
+1002
+Employee deleted successfully!
+--------Employee Management System-----------
+1. Add Employee
+2. View Employee
+3. Search Employee
+4. Update Employee
+5. Delete Employee
+6. Exit..
+Enter your choice:
+2
+Employee details:
+Employee{empId=1001, name='', age=20, department='', salary=1000000.0}
+--------Employee Management System-----------
+1. Add Employee
+2. View Employee
+3. Search Employee
+4. Update Employee
+5. Delete Employee
+6. Exit..
+Enter your choice:
+6
