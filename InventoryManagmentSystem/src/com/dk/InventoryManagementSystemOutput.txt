@@ -1,0 +1,182 @@
+"C:\Program Files\Java\jdk-22\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\lib\idea_rt.jar=60127:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Arise_Projects\ARISE_PROJECTS\SourceCodes-main\SourceCodes-main\InventoryManagmentSystem\out\production\InventoryManagmentSystem com.dk.InventoryManagementSystem
+-----Inventory Management System-------
+1. Add Item
+2. View Item
+3. search Item
+4. Update Item
+5. Delete Item
+6. Transactions
+7. Exit
+Enter Your choice:
+1
+Enter the Item ID:
+10001
+Enter the Item Name:
+Air cooler
+Enter the Item Quantity:
+10
+Enter the Item price:
+100000
+Item added successfully!
+-----Inventory Management System-------
+1. Add Item
+2. View Item
+3. search Item
+4. Update Item
+5. Delete Item
+6. Transactions
+7. Exit
+Enter Your choice:
+1
+Enter the Item ID:
+10002
+Enter the Item Name:
+IPhone
+Enter the Item Quantity:
+100
+Enter the Item price:
+200000
+Item added successfully!
+-----Inventory Management System-------
+1. Add Item
+2. View Item
+3. search Item
+4. Update Item
+5. Delete Item
+6. Transactions
+7. Exit
+Enter Your choice:
+2
+List of items:
+Item{id=10001, itemName='', quantity=10, price=100000.0}
+Item{id=10002, itemName='', quantity=100, price=200000.0}
+-----Inventory Management System-------
+1. Add Item
+2. View Item
+3. search Item
+4. Update Item
+5. Delete Item
+6. Transactions
+7. Exit
+Enter Your choice:
+3
+Enter the Item ID to search:
+10002
+Item{id=10002, itemName='', quantity=100, price=200000.0}
+-----Inventory Management System-------
+1. Add Item
+2. View Item
+3. search Item
+4. Update Item
+5. Delete Item
+6. Transactions
+7. Exit
+Enter Your choice:
+6
+Enter the Item ID for transactions:
+10002
+1. Purchase (Add stock)
+2. Sell (Reduce stock)
+Choose your transaction: 2
+Enter Quantity: 10
+Sale successful! Remaining stock: 90
+-----Inventory Management System-------
+1. Add Item
+2. View Item
+3. search Item
+4. Update Item
+5. Delete Item
+6. Transactions
+7. Exit
+Enter Your choice:
+6
+Enter the Item ID for transactions:
+10002
+1. Purchase (Add stock)
+2. Sell (Reduce stock)
+Choose your transaction: 1
+Enter Quantity: 2
+Purchase successful! New stock: 92
+-----Inventory Management System-------
+1. Add Item
+2. View Item
+3. search Item
+4. Update Item
+5. Delete Item
+6. Transactions
+7. Exit
+Enter Your choice:
+4
+Enter the ID to update the Item:
+10001
+Enter the Item Name:
+Macbook
+Enter the Item Quantity:
+1000
+Enter the Item price:
+100000
+Item updated successfully!
+-----Inventory Management System-------
+1. Add Item
+2. View Item
+3. search Item
+4. Update Item
+5. Delete Item
+6. Transactions
+7. Exit
+Enter Your choice:
+2
+List of items:
+Item{id=10001, itemName='', quantity=1000, price=100000.0}
+Item{id=10002, itemName='', quantity=92, price=200000.0}
+-----Inventory Management System-------
+1. Add Item
+2. View Item
+3. search Item
+4. Update Item
+5. Delete Item
+6. Transactions
+7. Exit
+Enter Your choice:
+3
+Enter the Item ID to search:
+10001
+Item{id=10001, itemName='', quantity=1000, price=100000.0}
+-----Inventory Management System-------
+1. Add Item
+2. View Item
+3. search Item
+4. Update Item
+5. Delete Item
+6. Transactions
+7. Exit
+Enter Your choice:
+5
+Enter the Item ID to delete the Item:
+10001
+Item deleted Successfully!
+-----Inventory Management System-------
+1. Add Item
+2. View Item
+3. search Item
+4. Update Item
+5. Delete Item
+6. Transactions
+7. Exit
+Enter Your choice:
+2
+List of items:
+Item{id=10002, itemName='', quantity=92, price=200000.0}
+-----Inventory Management System-------
+1. Add Item
+2. View Item
+3. search Item
+4. Update Item
+5. Delete Item
+6. Transactions
+7. Exit
+Enter Your choice:
+7
+System Existing...
+
+Process finished with exit code 0

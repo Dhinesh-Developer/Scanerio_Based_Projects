@@ -1,0 +1,111 @@
+
+## 📌 Problem Statement 
+
+You are asked to design and implement a **console-based Inventory Management System** in Java.
+This system should help a store manager to **manage items/products in inventory** using a simple **menu-driven program**.
+
+---
+
+## 🎯 Objective
+
+* To build a **CRUD application** (Create, Read, Update, Delete) for inventory items.
+* To support **transactions** (Purchase & Sell) that modify stock levels.
+* To apply **Object-Oriented Programming (OOP)** concepts like classes, objects, encapsulation.
+* To use **Java Collections** (like `HashMap` or `ArrayList`) instead of a database.
+
+---
+
+## 📦 Functional Requirements
+
+1. **Add Item**
+
+   * User can add a new item to the inventory by providing:
+
+     * Item ID (unique integer)
+     * Item Name (String)
+     * Quantity (int)
+     * Price (double)
+   * If the ID already exists → reject the new item.
+
+---
+
+2. **View All Items**
+
+   * Display all items present in the inventory in a formatted way.
+   * If no items → show “No items present!”.
+
+---
+
+3. **Search Item**
+
+   * User can search for an item using its **ID**.
+   * If found → display item details.
+   * If not found → display a “Not found” message.
+
+---
+
+4. **Update Item**
+
+   * User can update an item’s **name, quantity, or price**.
+   * If item with given ID does not exist → show error message.
+
+---
+
+5. **Delete Item**
+
+   * Remove an item completely from inventory using its ID.
+   * If ID not found → show error message.
+
+---
+
+6. **Transactions (Purchase / Sell)**
+
+   * User selects an item by ID.
+   * Choose **1. Purchase (increase stock)** OR **2. Sell (decrease stock)**.
+   * Enter quantity:
+
+     * If **Purchase** → add to stock.
+     * If **Sell** → check if enough stock is available. If yes, reduce stock, otherwise show error.
+
+---
+
+7. **Exit**
+
+   * End the program safely.
+
+---
+
+## 🛠 Non-Functional Requirements
+
+* Use **Java Collections** (`HashMap` for fast ID lookup).
+* Use **OOP concepts** (separate `Item` class, and `ItemManager` class).
+* Console-driven menu (loop until user exits).
+* Validate user input (e.g., avoid negative quantity, avoid duplicate IDs).
+
+---
+
+## 📌 Example Use Case (Store Scenario)
+
+Imagine a store that sells **Electronics**:
+
+1. Admin starts program → adds items like Laptop, Mouse, Keyboard.
+2. Checks inventory → sees all available products with quantity & price.
+3. A customer buys 2 laptops → Admin selects **Sell Transaction** → reduces stock.
+4. New shipment arrives with 10 more mice → Admin selects **Purchase Transaction** → increases stock.
+5. If product gets discontinued, Admin deletes it.
+
+This is exactly what **Zoho expects in Round 3**:
+
+* Problem-solving
+* Java coding
+* Collections & OOP
+* Handling edge cases (invalid ID, insufficient stock, duplicates).
+
+---
+
+✅ In short:
+The problem tests whether you can build a **real-life mini-application** using **Java basics + collections + OOP**.
+
+---
+
+Do you want me to also write a **sample interview-style problem statement document** (like the one Zoho gives in written rounds) that you can practice with?
