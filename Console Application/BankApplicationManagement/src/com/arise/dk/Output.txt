@@ -1,0 +1,95 @@
+"C:\Program Files\Java\jdk-22\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\lib\idea_rt.jar=50883:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath "M:\Arise\Console Application\BankApplicationManagement\out\production\BankApplicationManagement" com.arise.dk.BankAccountManagement
+----BankAccountManagementSystem----
+1.CreateAccount
+2.depositMoney
+3.Account Details
+4.Check Balance
+5.withdraw
+6.view Transactions History
+8.Exit
+Enter your choice:
+1
+Enter the UserName:
+kumar
+Enter the AccountNumber:
+101
+Enter the Balance:
+1000
+Enter the AccountType (Savings/Current):
+Savings
+Account created successfully!
+----BankAccountManagementSystem----
+1.CreateAccount
+2.depositMoney
+3.Account Details
+4.Check Balance
+5.withdraw
+6.view Transactions History
+8.Exit
+Enter your choice:
+2
+Enter the amount to deposit:
+1000
+Enter the Account Number:
+101
+Amount deposited successfully!
+----BankAccountManagementSystem----
+1.CreateAccount
+2.depositMoney
+3.Account Details
+4.Check Balance
+5.withdraw
+6.view Transactions History
+8.Exit
+Enter your choice:
+3
+{101=Account{accountHolderName='', accountNumber=101, balance=2000.0, accountType='Savings'}}
+----BankAccountManagementSystem----
+1.CreateAccount
+2.depositMoney
+3.Account Details
+4.Check Balance
+5.withdraw
+6.view Transactions History
+8.Exit
+Enter your choice:
+4
+Enter the Account Number to Check Balance:
+101
+Balance :2000.0
+----BankAccountManagementSystem----
+1.CreateAccount
+2.depositMoney
+3.Account Details
+4.Check Balance
+5.withdraw
+6.view Transactions History
+8.Exit
+Enter your choice:
+5
+Enter the Amount to withdraw:
+500
+Enter the Account Number:
+101
+Withdraw Amount :500.0 success, remainingBalance: 1500.0
+----BankAccountManagementSystem----
+1.CreateAccount
+2.depositMoney
+3.Account Details
+4.Check Balance
+5.withdraw
+6.view Transactions History
+8.Exit
+Enter your choice:
+6
+Transactions{accountNumber=101, typeOfTransactions='Withdraw', amount=1000.0, dateTime=2025-09-30T20:21:34.392475600, balanceAfterTransactions=2000.0}
+Transactions{accountNumber=101, typeOfTransactions='Withdraw', amount=500.0, dateTime=2025-09-30T20:21:54.859704, balanceAfterTransactions=1500.0}
+----BankAccountManagementSystem----
+1.CreateAccount
+2.depositMoney
+3.Account Details
+4.Check Balance
+5.withdraw
+6.view Transactions History
+8.Exit
+Enter your choice:

@@ -1,0 +1,52 @@
+🏦 Problem Statement: Bank Account Management System
+
+You are required to design and implement a console-based Bank Account Management System using OOP concepts (Java preferred).
+The system should allow multiple users to create and manage their bank accounts.
+
+Functional Requirements
+Create Account
+User enters name, account number, initial balance, account type (Savings/Current).
+Store account details.
+Deposit Money
+User can deposit a specific amount into their account.
+Balance should be updated accordingly.
+Withdraw Money
+User can withdraw money if balance is sufficient.
+Show error if withdrawal amount exceeds balance.
+Check Balance
+Display current balance of the account.
+Transfer Money
+Transfer funds from one account to another.
+Validate account numbers and balance before transfer.
+Transaction History
+Maintain a simple record of deposits, withdrawals, and transfers for each account.
+Exit Application
+Gracefully close the application when user chooses to exit.
+
+
+Constraints / Rules (Zoho-style twist)
+Use OOP principles:
+Account class with attributes (accountNumber, name, balance, type).
+Methods like deposit(), withdraw(), transfer(), getBalance().
+Use a collection (ArrayList / HashMap) to manage multiple accounts.
+Input/output must be handled via console (Scanner).
+Ensure error handling for invalid inputs (wrong account number, negative amount, insufficient balance).
+Optional (Zoho often asks): Add interest calculation for savings accounts.
+
+Sample Menu (Console UI)
+====== Bank Account Management System ======
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Check Balance
+5. Transfer Money
+6. Transaction History
+7. Exit
+
+Enter your choice:
+Expected Usage Flow (Example)
+Create an account → Name: "Dhinesh", Acc No: 1001, Balance: 5000.
+Deposit 2000 → Balance = 7000.
+Withdraw 1000 → Balance = 6000.
+Transfer 2000 from Acc No 1001 → Acc No 1002.
+Show transaction history → Deposited 2000, Withdrawn 1000, Transferred 2000.
