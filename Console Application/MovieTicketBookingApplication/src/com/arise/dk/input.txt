@@ -1,0 +1,95 @@
+Nice pick 👍 — Zoho Round 3 loves **console-based apps** where you handle **real-life workflows** with classes, collections, and clean logic.
+
+Here’s a **repeatedly asked problem statement for a Movie Ticket Booking System** 👇
+
+---
+
+# 🎬 **Problem Statement: Movie Ticket Booking System**
+
+You need to design and implement a **console-based Movie Ticket Booking System** using **OOP principles**.
+The system should allow users to browse movies, book tickets, cancel tickets, and view booking history.
+
+---
+
+## **Functional Requirements**
+
+1. **List Movies**
+
+   * Display available movies (movieId, movieName, showTime, ticketPrice, totalSeats, availableSeats).
+
+2. **Book Tickets**
+
+   * User chooses a movie and number of seats.
+   * Check if enough seats are available.
+   * Deduct seats and confirm booking.
+
+3. **Cancel Tickets**
+
+   * User can cancel a booking by entering bookingId.
+   * Seats should be restored back to availability.
+
+4. **View Booking History**
+
+   * Show user’s past bookings (movie name, seats, price, bookingId).
+
+5. **Exit Application**
+
+   * Gracefully close the app.
+
+---
+
+## **Constraints / Rules (Zoho-style twists)**
+
+* Use **OOP concepts**:
+
+  * `Movie` class → attributes: id, name, showTime, ticketPrice, totalSeats, availableSeats.
+  * `Booking` class → attributes: bookingId, movie, userName, seatsBooked, totalAmount.
+  * `MovieTicketSystem` (driver) → handles the menu, booking logic, cancellation, etc.
+* Store movies in a **list** and bookings in a **map or list**.
+* Ensure **seat availability validation**.
+* Each booking must have a **unique bookingId**.
+* Add **exception handling** for invalid inputs.
+* (Optional twist Zoho may ask): Apply **discounts** (e.g., 10% off if booking more than 5 seats).
+
+---
+
+## **Sample Menu (Console UI)**
+
+```
+===== Movie Ticket Booking System =====
+1. List Movies
+2. Book Tickets
+3. Cancel Tickets
+4. View Booking History
+5. Exit
+Enter your choice:
+```
+
+---
+
+## **Expected Usage Flow (Example)**
+
+1. List Movies → Shows:
+
+   ```
+   101 - Leo - 6:30 PM - Rs.150 - Seats Available: 50
+   102 - Vikram - 9:00 PM - Rs.200 - Seats Available: 40
+   ```
+
+2. Book Tickets → Select 101 (Leo), Seats = 3 → Success! BookingId: B1001, Amount: Rs.450.
+
+3. Cancel Tickets → Enter B1001 → Seats restored.
+
+4. View Booking History →
+
+   ```
+   BookingId: B1001 | Movie: Leo | Seats: 3 | Amount: Rs.450 | Status: Cancelled
+   ```
+
+---
+
+✅ If you can implement this with **ArrayList / HashMap + OOP design + input validation**, you’ll be **very close to Zoho’s expectations**.
+
+---
+
+👉 Do you want me to draft a **Java skeleton code** for this, similar to how Zoho wants, so you can practice directly?

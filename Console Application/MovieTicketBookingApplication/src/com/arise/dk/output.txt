@@ -1,0 +1,127 @@
+"C:\Program Files\Java\jdk-22\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\lib\idea_rt.jar=61400:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath "M:\Arise\Console Application\MovieTicketBookingApplication\out\production\MovieTicketBookingApplication" com.arise.dk.MainApplication
+---Movie Ticket Booking Application---
+1.Create Movie
+2.view List of Movies
+3.Book movie tickets
+4.Transactions History
+5.cancel Tickets
+6.Exit
+Enter your choice:
+1
+Enter the Movie Id:
+101
+Enter the Movie Name:
+master
+Enter the showTime:
+20-12-2005
+Enter the Ticket Price:
+300
+Enter the Total Seats:
+100
+Movie created successfully!
+---Movie Ticket Booking Application---
+1.Create Movie
+2.view List of Movies
+3.Book movie tickets
+4.Transactions History
+5.cancel Tickets
+6.Exit
+Enter your choice:
+1
+Enter the Movie Id:
+102
+Enter the Movie Name:
+GOAT
+Enter the showTime:
+01-01-2026
+Enter the Ticket Price:
+500
+Enter the Total Seats:
+100
+Movie created successfully!
+---Movie Ticket Booking Application---
+1.Create Movie
+2.view List of Movies
+3.Book movie tickets
+4.Transactions History
+5.cancel Tickets
+6.Exit
+Enter your choice:
+2
+Movie{movieId=101, movieName='master', showTime=20-12-2005, ticketPrice=300.0, totalSeats=100, availableSeats=100}
+Movie{movieId=102, movieName='GOAT', showTime=01-01-2026, ticketPrice=500.0, totalSeats=100, availableSeats=100}
+---Movie Ticket Booking Application---
+1.Create Movie
+2.view List of Movies
+3.Book movie tickets
+4.Transactions History
+5.cancel Tickets
+6.Exit
+Enter your choice:
+3
+Enter the MovieId:
+101
+Enter the Number of seats:
+10
+Booking confirmed! seats Booked: 10 total price: 3000.0
+---Movie Ticket Booking Application---
+1.Create Movie
+2.view List of Movies
+3.Book movie tickets
+4.Transactions History
+5.cancel Tickets
+6.Exit
+Enter your choice:
+3
+Enter the MovieId:
+102
+Enter the Number of seats:
+15
+Booking confirmed! seats Booked: 15 total price: 7500.0
+---Movie Ticket Booking Application---
+1.Create Movie
+2.view List of Movies
+3.Book movie tickets
+4.Transactions History
+5.cancel Tickets
+6.Exit
+Enter your choice:
+4
+Transactions{transactionsId=200, movieName='master', seatsBooked=10, price=3000.0, bookingId=101}
+Transactions{transactionsId=201, movieName='GOAT', seatsBooked=15, price=7500.0, bookingId=102}
+---Movie Ticket Booking Application---
+1.Create Movie
+2.view List of Movies
+3.Book movie tickets
+4.Transactions History
+5.cancel Tickets
+6.Exit
+Enter your choice:
+5
+Enter the MovieId:
+101
+Enter the Transactions Id:
+200
+Booking cancelled successfully!
+Seats reverted: 10 | Refund amount: 3000.0
+---Movie Ticket Booking Application---
+1.Create Movie
+2.view List of Movies
+3.Book movie tickets
+4.Transactions History
+5.cancel Tickets
+6.Exit
+Enter your choice:
+4
+Transactions{transactionsId=201, movieName='GOAT', seatsBooked=15, price=7500.0, bookingId=102}
+---Movie Ticket Booking Application---
+1.Create Movie
+2.view List of Movies
+3.Book movie tickets
+4.Transactions History
+5.cancel Tickets
+6.Exit
+Enter your choice:
+6
+
+Process finished with exit code 0
