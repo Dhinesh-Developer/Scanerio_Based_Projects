@@ -1,0 +1,126 @@
+"C:\Program Files\Java\jdk-22\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\lib\idea_rt.jar=58440:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath "M:\Arise\Console Application\libraryManagmentSystem\out\production\libraryManagmentSystem" com.arise.dk.LibraryMangementSystem
+
+--- Library Management System ---
+1. Create Book
+2. Show List of Books
+3. Borrow Book
+4. View Borrowed Books
+5. Return Book
+6. Exit
+Enter your choice: 1
+Enter the book name: java
+Enter the book author: james
+Enter the number of copies: 10
+Enter the book Id: 101
+✅ Book added successfully!
+
+--- Library Management System ---
+1. Create Book
+2. Show List of Books
+3. Borrow Book
+4. View Borrowed Books
+5. Return Book
+6. Exit
+Enter your choice: 2
+BookID=101, Title='java', Author='james', CopiesAvailable=10
+
+--- Library Management System ---
+1. Create Book
+2. Show List of Books
+3. Borrow Book
+4. View Borrowed Books
+5. Return Book
+6. Exit
+Enter your choice: 1
+Enter the book name: python
+Enter the book author: arnold
+Enter the number of copies: 10
+Enter the book Id: 102
+✅ Book added successfully!
+
+--- Library Management System ---
+1. Create Book
+2. Show List of Books
+3. Borrow Book
+4. View Borrowed Books
+5. Return Book
+6. Exit
+Enter your choice: 2
+BookID=101, Title='java', Author='james', CopiesAvailable=10
+BookID=102, Title='python', Author='arnold', CopiesAvailable=10
+
+--- Library Management System ---
+1. Create Book
+2. Show List of Books
+3. Borrow Book
+4. View Borrowed Books
+5. Return Book
+6. Exit
+Enter your choice: 3
+Enter the userName: kumar
+Enter the userId: 201
+Enter the bookId to borrow: 1
+Enter number of copies: 1
+⚠ Book not found with ID: 1
+
+--- Library Management System ---
+1. Create Book
+2. Show List of Books
+3. Borrow Book
+4. View Borrowed Books
+5. Return Book
+6. Exit
+Enter your choice: 3
+Enter the userName: kumar
+Enter the userId: 201
+Enter the bookId to borrow: 101
+Enter number of copies: 2
+✅ Borrow successful: kumar borrowed 'java' (2 copies). Remaining: 8
+
+--- Library Management System ---
+1. Create Book
+2. Show List of Books
+3. Borrow Book
+4. View Borrowed Books
+5. Return Book
+6. Exit
+Enter your choice: 3
+Enter the userName: dhinesh
+Enter the userId: 202
+Enter the bookId to borrow: 102
+Enter number of copies: 2
+✅ Borrow successful: dhinesh borrowed 'python' (2 copies). Remaining: 8
+
+--- Library Management System ---
+1. Create Book
+2. Show List of Books
+3. Borrow Book
+4. View Borrowed Books
+5. Return Book
+6. Exit
+Enter your choice: 5
+Enter the Book ID to return: 102
+Enter your User ID: 202
+✅ Book returned successfully!
+
+--- Library Management System ---
+1. Create Book
+2. Show List of Books
+3. Borrow Book
+4. View Borrowed Books
+5. Return Book
+6. Exit
+Enter your choice: 4
+BookID: 101 → User{userId=201, userName='kumar'}
+
+--- Library Management System ---
+1. Create Book
+2. Show List of Books
+3. Borrow Book
+4. View Borrowed Books
+5. Return Book
+6. Exit
+Enter your choice: 6
+👋 Exiting... Goodbye!
+
+Process finished with exit code 0

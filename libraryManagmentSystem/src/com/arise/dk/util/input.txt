@@ -1,0 +1,116 @@
+Perfect 👌 You caught another **classic Zoho Round 3 problem** — the **Library Management System**.
+Just like **Call Taxi, Bank, Car Booking**, this one is asked very frequently because it combines **OOP + collections + real-world workflow**.
+
+Here’s the **exact problem statement** Zoho usually gives 👇
+
+---
+
+# 📚 **Problem Statement: Library Management System**
+
+You are required to design a **console-based Library Management System** using **OOP concepts**.
+
+The system should allow users to **borrow and return books**, while the library keeps track of available books and borrowers.
+
+---
+
+## **Functional Requirements**
+
+1. **Add Books (Admin functionality)**
+
+   * Admin can add books to the library.
+   * Each book has → `bookId`, `title`, `author`, `copiesAvailable`.
+
+2. **List All Books**
+
+   * Display all books in the library with availability.
+
+3. **Borrow Book**
+
+   * A user enters `bookId`.
+   * If copies are available → assign the book to user, decrease `copiesAvailable`.
+   * If not available → show **“Book not available”**.
+
+4. **Return Book**
+
+   * User enters `bookId`.
+   * Copies count is increased back.
+
+5. **View Borrowed Books by User**
+
+   * Show the list of books borrowed by a specific user.
+
+6. **View Library Status**
+
+   * Show all books with availability and who borrowed them.
+
+7. **Exit Application**
+
+---
+
+## **Constraints / Zoho-Style Rules**
+
+* Use **OOP principles**:
+
+  * `Book` class → bookId, title, author, totalCopies, availableCopies.
+  * `User` class → userId, userName, borrowedBooks (list of Book).
+  * `LibrarySystem` → manages books, users, borrow/return logic.
+* Use **ArrayList/HashMap** to store books and users.
+* Ensure **validations**:
+
+  * Cannot borrow if already borrowed.
+  * Cannot return if user didn’t borrow that book.
+  * Show proper error messages.
+* (Zoho Twist 🔥): Add **due date & fine** → if a book is returned late, charge Rs.10/day fine.
+
+---
+
+## **Sample Menu (Console UI)**
+
+```
+====== Library Management System ======
+1. Add Book
+2. List Books
+3. Borrow Book
+4. Return Book
+5. View Borrowed Books (User)
+6. View Library Status
+7. Exit
+Enter your choice:
+```
+
+---
+
+## **Sample Input / Output**
+
+### Input:
+
+1. Admin adds:
+
+   * Book1: "Java Basics" by James, 3 copies
+   * Book2: "DSA in C++" by Narasimha, 2 copies
+
+2. User1 borrows Book1.
+
+3. User2 borrows Book1.
+
+4. User3 borrows Book1.
+
+5. User4 tries to borrow Book1 → **Not available**.
+
+6. User1 returns Book1.
+
+### Output:
+
+```
+Book Status:
+Book1 - Java Basics | Author: James | Available Copies: 1
+Book2 - DSA in C++  | Author: Narasimha | Available Copies: 2
+
+User Borrowed:
+User1 -> None
+User2 -> Java Basics
+User3 -> Java Basics
+```
+
+---
+
